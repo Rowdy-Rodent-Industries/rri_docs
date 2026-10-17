@@ -1,6 +1,6 @@
 # Config Properties
 
-## mti_common_hideInHelmet
+## rri_common_hideInHelmet
 
 - **Value:** Number (Bool)
 - **Config Type:** `CfgFaces`

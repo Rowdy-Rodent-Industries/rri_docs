@@ -8,7 +8,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_drones_fnc_canUnpack
+## rri_drones_fnc_canUnpack
 
 **Description:** Checks whether given unit has drones that can be unpacked.  
 
@@ -21,14 +21,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_drones_fnc_canUnpack;
+[player] call rri_drones_fnc_canUnpack;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_drones_fnc_getDroneAssembleActions
+## rri_drones_fnc_getDroneAssembleActions
 
 **Description:** Returns child actions for drone assembly based on current inventory.  
 
@@ -41,7 +41,7 @@ No documentation available.
 ```
 
 (begin example)
-[ace_player] call mti_drones_fnc_getDroneAssembleActions;
+[ace_player] call rri_drones_fnc_getDroneAssembleActions;
 (end)
 
 ```
@@ -56,13 +56,13 @@ No documentation available.
 
 No documentation available.
 
-## mti_weapons_core_fnc_initUAVMarkers
+## rri_weapons_core_fnc_initUAVMarkers
 
 **Description:** Creates tracking boxes when you mark down a vehicle and tracks for 3 minutes.  To add this to the drone: put "GVAR_CORE(drones,hasUAVMark) = 1;" in the drone config.   
 
 **Author:** Wolfen
 
-## mti_mortar_turret_fnc_initVehicle
+## rri_mortar_turret_fnc_initVehicle
 
 **Description:** Inits the mortar turret, creates crew, adds disassembly action  
 
@@ -75,7 +75,7 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_mortar_turret_fnc_initVehicle;
+[] call rri_mortar_turret_fnc_initVehicle;
 (end)
 
 ```
@@ -86,7 +86,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_drones_fnc_pack
+## rri_drones_fnc_pack
 
 **Description:** Packs up a drone back into the inventory.  
 
@@ -100,7 +100,7 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_drones_fnc_pack;
+[] call rri_drones_fnc_pack;
 (end)
 
 ```
@@ -111,7 +111,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_drones_fnc_unpack
+## rri_drones_fnc_unpack
 
 **Description:** Unpacks a drone.  
 
@@ -125,7 +125,7 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_drones_fnc_unpack;
+[] call rri_drones_fnc_unpack;
 (end)
 
 ```

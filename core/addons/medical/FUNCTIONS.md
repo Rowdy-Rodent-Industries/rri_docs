@@ -8,7 +8,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_medical_fnc_addDamageRaw
+## rri_medical_fnc_addDamageRaw
 
 **Description:** Adds raw damage (eg from hitPart) to given unit.  
 
@@ -23,14 +23,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, "Head", 100] call mti_medical_fnc_addDamageRaw
+[player, "Head", 100] call rri_medical_fnc_addDamageRaw
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_fnc_bandage
+## rri_medical_fnc_bandage
 
 **Description:** Bandages open wounds on the given body part of the patient.  
 
@@ -46,14 +46,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, cursorTarget, "Head", "FieldDressing"] call mti_medical_fnc_bandage
+[player, cursorTarget, "Head", "FieldDressing"] call rri_medical_fnc_bandage
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_medical_fnc_defibrillate
+## rri_medical_fnc_defibrillate
 
 **Description:** Handles defibrillation of target units  
 
@@ -68,14 +68,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, "MTI_defibrillator_ammo"] call mti_medical_fnc_defibrillate;
+[player, "rri_defibrillator_ammo"] call rri_medical_fnc_defibrillate;
 (end)
 
 ```
 
 **Author:** Mokka */  params ["_unit", "_shooter", "_ammo"]; TRACE_3("params",_unit,_shooter,_ammo);  if !(local _unit) exitWith { ERROR_1("cannot defibrillate %1: not local",_unit) };  /* option A: _unit is in cardiac arrest and actually in need of shock - check chance if defibrillation successful and return heart rate - add lots of pain option B: _unit is NOT in cardiac arrest - always put _unit unconscious and add lots of pain - check for chance if defibrillation induces cardiac arrest instead 
 
-## mti_medical_fnc_disposeBodybag
+## rri_medical_fnc_disposeBodybag
 
 **Description:** Disposes of a bodybag.  
 
@@ -88,14 +88,14 @@ No documentation available.
 ```
 
 (begin example)
-[cursorObject] call mti_medical_fnc_disposeBodybag
+[cursorObject] call rri_medical_fnc_disposeBodybag
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_fnc_getAverageDamage
+## rri_medical_fnc_getAverageDamage
 
 **Description:** Returns average damage from array  
 
@@ -108,14 +108,14 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_medical_fnc_getAverageDamage
+[...] call rri_medical_fnc_getAverageDamage
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_fnc_getBandageTime
+## rri_medical_fnc_getBandageTime
 
 **Description:** Returns adjusted bandage time based on most effective wound.  
 
@@ -131,16 +131,16 @@ No documentation available.
 ```
 
 (begin example)
-[player, cursorTarget, "Head", "FieldDressing"] call mti_medical_fnc_getBandageTime
+[player, cursorTarget, "Head", "FieldDressing"] call rri_medical_fnc_getBandageTime
 (end)
 
 ```
 
 **Author:** SilentSpike, Mokka 
 
-## mti_medical_fnc_handleInhalder
+## rri_medical_fnc_handleInhalder
 
-**Description:** Handles the usage of the MTI_Inhaler, triggering the local inhaler handling  
+**Description:** Handles the usage of the rri_Inhaler, triggering the local inhaler handling  
 
 **Arguments:**
 - `_medic` - The medic "treating" the patient
@@ -152,14 +152,14 @@ No documentation available.
 ```
 
 (begin example)
-[_medic, _patient] call mti_medical_fnc_handleInhalder;
+[_medic, _patient] call rri_medical_fnc_handleInhalder;
 (end)
 
 ```
 
 **Author:** arcanist 
 
-## mti_medical_fnc_handleInhaler
+## rri_medical_fnc_handleInhaler
 
 **Description:** Removes all lung damage wounds and resets the 'halothane' counters  
 
@@ -173,7 +173,7 @@ No documentation available.
 ```
 
 (begin example)
-[_medic, _patient] call mti_medical_fnc_handleInhaler;
+[_medic, _patient] call rri_medical_fnc_handleInhaler;
 (end)
 
 ```
@@ -192,7 +192,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_medical_fnc_medication
+## rri_medical_fnc_medication
 
 **Description:** Administers medication to the patient on the given body bodypart.  
 
@@ -210,14 +210,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, cursorObject, "RightArm", "Morphine", objNull, "ACE_morphine"] call mti_medical_fnc_medication
+[player, cursorObject, "RightArm", "Morphine", objNull, "ACE_morphine"] call rri_medical_fnc_medication
 (end)
 
 ```
 
 **Author:** Glowbal, mharis001, Mokka 
 
-## mti_medical_fnc_medisensor
+## rri_medical_fnc_medisensor
 
 **Description:** Handles medisensor event triggering.  
 
@@ -232,14 +232,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, cursorTarget, "Head"] call mti_medical_fnc_medisensor
+[player, cursorTarget, "Head"] call rri_medical_fnc_medisensor
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_medical_fnc_medisensorLocal
+## rri_medical_fnc_medisensorLocal
 
 **Description:** Local callback for medisensor scan.  
 
@@ -254,14 +254,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, cursorTarget, "Head"] call mti_medical_fnc_medisensorLocal
+[player, cursorTarget, "Head"] call rri_medical_fnc_medisensorLocal
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_medical_fnc_nevastrin8_handleEffect
+## rri_medical_fnc_nevastrin8_handleEffect
 
 **Description:** Handles effects of Nevastrin-8.  
 
@@ -275,14 +275,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, 0.4] call mti_medical_fnc_nevastrin8_handleEffect
+[player, 0.4] call rri_medical_fnc_nevastrin8_handleEffect
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_fnc_nevastrin8_overdose
+## rri_medical_fnc_nevastrin8_overdose
 
 **Description:** Handles Nevastrin-8 overdose.  
 
@@ -297,14 +297,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, "Nevastrin8", []] call mti_medical_fnc_nevastrin8_overdose
+[player, "Nevastrin8", []] call rri_medical_fnc_nevastrin8_overdose
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_fnc_overdose_deraformine
+## rri_medical_fnc_overdose_deraformine
 
 **Description:** Handles deraformine overdose.  
 
@@ -319,14 +319,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, "Deraformine", []] call mti_medical_fnc_overdose_deraformine
+[player, "Deraformine", []] call rri_medical_fnc_overdose_deraformine
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_fnc_overdose_pba
+## rri_medical_fnc_overdose_pba
 
 **Description:** Handles PBA overdose.  
 
@@ -341,7 +341,7 @@ No documentation available.
 ```
 
 (begin example)
-[player, "PBA", []] call mti_medical_fnc_overdose_pba
+[player, "PBA", []] call rri_medical_fnc_overdose_pba
 (end)
 
 ```
@@ -352,7 +352,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_medical_fnc_postInitDiary
+## rri_medical_fnc_postInitDiary
 
 **Description:** Adds the medical-related entries to the in-game manual.  
 
@@ -370,7 +370,7 @@ No documentation available.
 ```
 
 (begin example)
-call mti_medical_fnc_postInitDiary
+call rri_medical_fnc_postInitDiary
 (end)
 
 ```
@@ -381,7 +381,7 @@ call mti_medical_fnc_postInitDiary
 
 No documentation available.
 
-## mti_medical_fnc_randomDamage
+## rri_medical_fnc_randomDamage
 
 **Description:** Randomly damages the given unit based on various parameters.  
 
@@ -400,14 +400,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, [0,0.2,1], [2,6,10], true, false] call mti_medical_fnc_randomDamage
+[player, [0,0.2,1], [2,6,10], true, false] call rri_medical_fnc_randomDamage
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_fnc_reorient
+## rri_medical_fnc_reorient
 
 **Description:** "Reorients" a patient in order to quickly wake them up if vitals allow for that. Based on ACE Pharmacy's reorient action: https://github.com/mazinskihenry/aceP/blob/main/addons/circulation/functions/fnc_treatmentAdvanced_ReorientationLocal.sqf  
 
@@ -421,14 +421,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_medical_fnc_reorient;
+[] call rri_medical_fnc_reorient;
 (end)
 
 ```
 
 **Author:** 2LT.Mazinski, modified by Mokka 
 
-## mti_medical_fnc_resetState
+## rri_medical_fnc_resetState
 
 **Description:** Forcefully resets medical status of target, fixes the "stuck at 30 HR" bug.  
 
@@ -441,14 +441,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_medical_fnc_resetState;
+[player] call rri_medical_fnc_resetState;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_fnc_updateMedicationState
+## rri_medical_fnc_updateMedicationState
 
 **Description:** Handles custom medication effects.  
 
@@ -461,7 +461,7 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_Player] call mti_medical_fnc_updateMedicationState
+[ACE_Player] call rri_medical_fnc_updateMedicationState
 (end)
 
 ```

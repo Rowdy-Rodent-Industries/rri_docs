@@ -1,11 +1,11 @@
-mti_factions_weapons
+rri_factions_weapons
 ===================
 
-Weapon addon for MokTech Industries - Factions.
+Weapon addon for Rowdy Rodent Induestries Industries - Factions.
 
 This addon has three core dependancies:
 3AS and Legion Studios for tracer effects and sounds
-Moktech Core
+Rowdy Rodent Induestries Core
 
 Subaddons add more weaponry from a variety of different mods. Weapons that derive from the core dependancies are split via faction as opposed to addon
 

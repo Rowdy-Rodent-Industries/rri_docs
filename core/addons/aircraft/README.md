@@ -1,4 +1,4 @@
-mti_aircraft
+rri_aircraft
 ===================
 
-Custom MokTech Industries aircraft features.
+Custom Rowdy Rodent Induestries Industries aircraft features.

@@ -1,4 +1,4 @@
-mti_explosives
+rri_explosives
 ===================
 
 Explosives template feature.

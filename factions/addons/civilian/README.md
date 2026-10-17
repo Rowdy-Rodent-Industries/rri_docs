@@ -1,4 +1,4 @@
-mti_factions_civilian
+rri_factions_civilian
 ===================
 
 SOB Civvies

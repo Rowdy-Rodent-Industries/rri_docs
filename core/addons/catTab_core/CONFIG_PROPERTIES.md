@@ -1,6 +1,6 @@
 # Config Properties
 
-## mti_catTab_core_hasHelmetCam
+## rri_catTab_core_hasHelmetCam
 
 - **Value:** Number (Bool)
 - **Config Type:** `CfgWeapons`

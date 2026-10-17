@@ -1,4 +1,4 @@
-mti_armoury_statics_bactatank
+rri_armoury_statics_bactatank
 ===================
 
 Blank template vehicle subaddon.

@@ -1,4 +1,4 @@
-mti_armoury_main
+rri_armoury_main
 ===================
 
-Main addon for MokTech Industries - Armoury.
+Main addon for Rowdy Rodent Induestries Industries - Armoury.

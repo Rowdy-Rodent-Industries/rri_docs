@@ -1,4 +1,4 @@
-mti_armoury_statics_mortar
+rri_armoury_statics_mortar
 ===================
 
 Statics (mortar) template feature.

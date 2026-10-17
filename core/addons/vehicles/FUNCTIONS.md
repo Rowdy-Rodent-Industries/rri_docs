@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_vehicles_fnc_canDeploy
+## rri_vehicles_fnc_canDeploy
 
 **Description:** Checks whether given vehicle can be deployed (to make fortify available).  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[] call mti_vehicles_fnc_canDeploy;
+[] call rri_vehicles_fnc_canDeploy;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_vehicles_fnc_canPackUp
+## rri_vehicles_fnc_canPackUp
 
 **Description:** Checks whether given vehicle is deployed and can be packed up.  
 
@@ -33,14 +33,14 @@
 ```
 
 (begin example)
-[] call mti_vehicles_fnc_canPackUp;
+[] call rri_vehicles_fnc_canPackUp;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_vehicles_fnc_canSwapVehicle
+## rri_vehicles_fnc_canSwapVehicle
 
 **Description:** Checks whether given vehicle can be swapped by the player. Requires the player to be an engineer and the vehicle to have a swap target defined.  
 
@@ -54,14 +54,14 @@
 ```
 
 (begin example)
-[cursorTarget, player] call mti_vehicles_fnc_canSwapVehicle;
+[cursorTarget, player] call rri_vehicles_fnc_canSwapVehicle;
 (end)
 
 ```
 
 **Author:** Ramsey 
 
-## mti_vehicles_fnc_debug_track
+## rri_vehicles_fnc_debug_track
 
 **Description:** Debugging function that tracks fired projectiles. Used to debug Artillery.  
 
@@ -75,14 +75,14 @@
 ```
 
 (begin example)
-[...] call mti_vehicles_fnc_debug_track;
+[...] call rri_vehicles_fnc_debug_track;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_vehicles_fnc_deploy
+## rri_vehicles_fnc_deploy
 
 **Description:** Deploys given vehicle, disables the engine and makes fortify presets available.  
 
@@ -95,14 +95,14 @@
 ```
 
 (begin example)
-[] call mti_vehicles_fnc_deploy;
+[] call rri_vehicles_fnc_deploy;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_vehicles_fnc_deployLocal
+## rri_vehicles_fnc_deployLocal
 
 **Description:** Local deploy handler. Keeps the vehicle's engine from being turned on while vic is deployed.  
 
@@ -115,14 +115,14 @@
 ```
 
 (begin example)
-[] call mti_vehicles_fnc_deployLocal;
+[] call rri_vehicles_fnc_deployLocal;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_vehicles_fnc_getSwapVehicleActions
+## rri_vehicles_fnc_getSwapVehicleActions
 
 **Description:** Returns child actions for each available vehicle swap option.  
 
@@ -136,14 +136,14 @@
 ```
 
 (begin example)
-[cursorTarget, player] call mti_vehicles_fnc_getSwapVehicleActions;
+[cursorTarget, player] call rri_vehicles_fnc_getSwapVehicleActions;
 (end)
 
 ```
 
 **Author:** Ramsey 
 
-## mti_vehicles_fnc_packUp
+## rri_vehicles_fnc_packUp
 
 **Description:** Packs up given deployed vehicle.  
 
@@ -156,14 +156,14 @@
 ```
 
 (begin example)
-[] call mti_vehicles_fnc_packUp;
+[] call rri_vehicles_fnc_packUp;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_vehicles_fnc_swapVehicle
+## rri_vehicles_fnc_swapVehicle
 
 **Description:** Swaps a vehicle with another vehicle type. Transfers damage, vehicle inventory cargo, and ACE cargo. Takes 20 seconds, requires the player to be an engineer, and the vehicle must be empty. Note: Does not transfer turret magazines - vehicle will need to be rearmed after swap.  
 
@@ -178,14 +178,14 @@
 ```
 
 (begin example)
-[cursorTarget, player] call mti_vehicles_fnc_swapVehicle;
+[cursorTarget, player] call rri_vehicles_fnc_swapVehicle;
 (end)
 
 ```
 
 **Author:** Ramsey 
 
-## mti_vehicles_fnc_swapVehicleServer
+## rri_vehicles_fnc_swapVehicleServer
 
 **Description:** Server-side execution of a vehicle swap. Deletes the old vehicle and creates the replacement, then restores inventory, ACE cargo, and mod variables :D  
 

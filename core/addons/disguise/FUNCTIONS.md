@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_disguise_fnc_canEquipDisguise
+## rri_disguise_fnc_canEquipDisguise
 
 **Description:** Checks whether given unit has a disguise in their inventory  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[player] call mti_disguise_fnc_canEquipDisguise;
+[player] call rri_disguise_fnc_canEquipDisguise;
 (end)
 
 ```
 
 **Author:** Arcanist 
 
-## mti_equipment_fnc_canRemoveDisguise
+## rri_equipment_fnc_canRemoveDisguise
 
 **Description:** Checks whether given unit has a disguise in their inventory  
 
@@ -33,7 +33,7 @@
 ```
 
 (begin example)
-[player] call mti_equipment_fnc_canRemoveDisguise;
+[player] call rri_equipment_fnc_canRemoveDisguise;
 (end)
 
 ```
@@ -48,7 +48,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_disguise_fnc_getDisguiseActions
+## rri_disguise_fnc_getDisguiseActions
 
 **Description:** Returns children actions created dynamically for each type of disguise kit in player's possession.  
 
@@ -61,7 +61,7 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_disguise_fnc_getDisguiseActions;
+[player] call rri_disguise_fnc_getDisguiseActions;
 (end)
 
 ```

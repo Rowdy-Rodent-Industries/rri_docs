@@ -1,7 +1,7 @@
-mti_tech
+rri_tech
 ===================
 
-Technician additions to the game by MokTech Industries.
+Technician additions to the game by Rowdy Rodent Induestries Industries.
 
 **Author:** Arcanist
 
@@ -95,8 +95,8 @@ https://docs.google.com/document/d/1oSz1uURLLb7z6nCOMCTOLkq_OWXBc6Kk7HjI2fCIAvY/
 
 ## Events
 A couple event points were created for other modders to be able to interact with.
-- `mti_tech_beforeSuccessHack`
-- `mti_tech_afterSuccessHack`
-- `mti_tech_beforeFailedHack`
-- `mti_tech_afterFailedHack`
+- `rri_tech_beforeSuccessHack`
+- `rri_tech_afterSuccessHack`
+- `rri_tech_beforeFailedHack`
+- `rri_tech_afterFailedHack`
 Each event is passed the player and the name of hack that the player attempted, in that order. `[player, _hackName]`

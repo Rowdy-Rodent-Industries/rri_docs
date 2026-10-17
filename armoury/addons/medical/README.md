@@ -1,4 +1,4 @@
-mti_armoury_medical
+rri_armoury_medical
 ===================
 
 Medical template feature.

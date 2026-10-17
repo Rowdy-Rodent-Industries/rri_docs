@@ -1,4 +1,4 @@
-mti_pangolin
+rri_pangolin
 ===================
 
 Shield systems supplied by Pangolin Enterprises.

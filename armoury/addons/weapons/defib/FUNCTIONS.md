@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_armoury_weapons_defib_fnc_fired
+## rri_armoury_weapons_defib_fnc_fired
 
 **Description:** Handles events after the defib was fired.  
 
@@ -20,7 +20,7 @@
 
 (begin example)
 class EventHandlers {
-fired = "_this call mti_armoury_weapons_defib_fnc_fired";
+fired = "_this call rri_armoury_weapons_defib_fnc_fired";
 };
 (end)
 

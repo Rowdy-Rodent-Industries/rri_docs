@@ -1,7 +1,7 @@
-mti_armoury_vehicles_mutt
+rri_armoury_vehicles_mutt
 ===================
 
-The Multi-Use Tactical Transport ("MUTT") is a new vehicle platform developed and produced by MokTech Industries.
+The Multi-Use Tactical Transport ("MUTT") is a new vehicle platform developed and produced by Rowdy Rodent Induestries Industries.
 
 - MUTT-I - Infantry Transport
 - MUTT-C - Cargo Transport

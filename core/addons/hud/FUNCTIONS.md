@@ -1,18 +1,18 @@
 # Function Reference
 
-## mti_hud_fnc_applyLayout
+## rri_hud_fnc_applyLayout
 
 **Description:** Applies HUD position and scale to both HUD panels.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_applyStyle
+## rri_hud_fnc_applyStyle
 
-**Description:** Recreates the MTI HUD using the selected font and applies the selected color.  
+**Description:** Recreates the rri HUD using the selected font and applies the selected color.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_cleanDisplayName
+## rri_hud_fnc_cleanDisplayName
 
 **Description:** Removes a leading mod tag from a display name.  
 
@@ -24,55 +24,55 @@
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_hasMTIHUD
+## rri_hud_fnc_hasrriHUD
 
-**Description:** Checks whether the unit's equipped helmet supports the MTI HUD.  
+**Description:** Checks whether the unit's equipped helmet supports the rri HUD.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_init
+## rri_hud_fnc_init
 
 **Description:** Initializes the HUD.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_updateHealth
+## rri_hud_fnc_updateHealth
 
 **Description:** Updates the HUD health display using blood volume and active bleeding rate.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_updateNavigation
+## rri_hud_fnc_updateNavigation
 
 **Description:** Updates elevation, navigation distance, and direction.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_updatePermissions
+## rri_hud_fnc_updatePermissions
 
 **Description:** Updates the selected permissions shown on HUD using the trait system.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_updateRadio
+## rri_hud_fnc_updateRadio
 
 **Description:** Updates primary and additional TFAR radio frequencies.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_updateSquad
+## rri_hud_fnc_updateSquad
 
 **Description:** Updates the squad name shown on the HUD.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_updateVehicle
+## rri_hud_fnc_updateVehicle
 
 **Description:** Updates the right HUD panel with information for the players current vehicle position.  
 
 **Author:** Wolfen 
 
-## mti_hud_fnc_updateWeapon
+## rri_hud_fnc_updateWeapon
 
 **Description:** Updates weapon, ammo type, fire mode, magazine ammo count, and grenade.  
 

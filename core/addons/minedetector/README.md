@@ -1,4 +1,4 @@
-mti_minedetector
+rri_minedetector
 ===================
 
 Custom minedetector based on ACE3.

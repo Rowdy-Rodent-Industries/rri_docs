@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_haad_fnc_resupply
+## rri_haad_fnc_resupply
 
 **Description:** Handles adding the actual supplies, updating charges etc  
 
@@ -15,7 +15,7 @@
 ```
 
 (begin example)
-[...] call mti_haad_fnc_resupply;
+[...] call rri_haad_fnc_resupply;
 (end)
 
 ```

@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_armoury_main_fnc_getVersion
+## rri_armoury_main_fnc_getVersion
 
 **Description:** Returns currently running mod version as array.  
 
@@ -13,7 +13,7 @@
 ```
 
 (begin example)
-[] call mti_main_fnc_getVersion;
+[] call rri_main_fnc_getVersion;
 (end)
 
 ```

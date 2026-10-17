@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_katarnOS_fnc_activateBeacon
+## rri_katarnOS_fnc_activateBeacon
 
 **Description:** Activates the emergency beacon of the given unit.  
 
@@ -14,14 +14,14 @@
 ```
 
 (begin example)
-[player,cursorTarget] call mti_katarnOS_fnc_activateBeacon;
+[player,cursorTarget] call rri_katarnOS_fnc_activateBeacon;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_activateRepulsorBlast
+## rri_katarnOS_fnc_activateRepulsorBlast
 
 **Description:** Activates the Repulsor Blast  
 
@@ -34,7 +34,7 @@
 ```
 
 (begin example)
-[] call mti_katarnOS_fnc_activateRepulsorBlast;
+[] call rri_katarnOS_fnc_activateRepulsorBlast;
 (end)
 
 ```
@@ -49,7 +49,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_katarnOS_fnc_activateTaser
+## rri_katarnOS_fnc_activateTaser
 
 **Description:** Handles activation of the ST-91 wrist-place stun device.  
 
@@ -62,26 +62,26 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_katarnOS_fnc_activateTaser;
+[player] call rri_katarnOS_fnc_activateTaser;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_applyKatarnLayout
+## rri_katarnOS_fnc_applyKatarnLayout
 
 **Description:** Applies scale to the Katarn HUD layout.
 
 **Author:** Wolfen
 
-## mti_katarnOS_fnc_applyKatarnStyle
+## rri_katarnOS_fnc_applyKatarnStyle
 
 **Description:** Applies font and color settings to the Katarn HUD.
 
 **Author:** Wolfen
 
-## mti_katarnOS_fnc_canActivateBeacon
+## rri_katarnOS_fnc_canActivateBeacon
 
 **Description:** Checks if given unit can activate the beacon of the given target  
 
@@ -95,14 +95,14 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_Player,cursorTarget] call mti_katarnOS_fnc_canActivateBeacon;
+[ACE_Player,cursorTarget] call rri_katarnOS_fnc_canActivateBeacon;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_canActivateRepulsorBlast
+## rri_katarnOS_fnc_canActivateRepulsorBlast
 
 **Description:** Checks if unit has repulsor loaded  
 
@@ -115,14 +115,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_katarnOS_fnc_canActivateRepulsor;
+[] call rri_katarnOS_fnc_canActivateRepulsor;
 (end)
 
 ```
 
 **Author:** Chimera 
 
-## mti_katarnOS_fnc_canActivateSquadShield
+## rri_katarnOS_fnc_canActivateSquadShield
 
 **Description:** Checks if the given unit can deploy the squad shield.  
 
@@ -131,7 +131,7 @@ No documentation available.
 
 **Return Value:** canActivateSquadShield? 
 
-## mti_katarnOS_fnc_canActivateStunWave
+## rri_katarnOS_fnc_canActivateStunWave
 
 **Description:** Checks if the given unit can activate the stun wave.  
 
@@ -140,7 +140,7 @@ No documentation available.
 
 **Return Value:** canActivateStunWave? 
 
-## mti_katarnOS_fnc_canActivateTaser
+## rri_katarnOS_fnc_canActivateTaser
 
 **Description:** Returns whether given unit can activate taser. Does NOT check if unit actually has a taser.  
 
@@ -153,14 +153,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_katarnOS_fnc_canActivateTaser;
+[player] call rri_katarnOS_fnc_canActivateTaser;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_canReloadRepulsorBlast
+## rri_katarnOS_fnc_canReloadRepulsorBlast
 
 **Description:** Checks if client can reload the repulsor blast  
 
@@ -173,14 +173,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_katarnOS_fnc_canReloadRepulsorBlast;
+[] call rri_katarnOS_fnc_canReloadRepulsorBlast;
 (end)
 
 ```
 
 **Author:** Chimera 
 
-## mti_katarnOS_fnc_canReloadTaser
+## rri_katarnOS_fnc_canReloadTaser
 
 **Description:** Returns whether the given unit can reload the taser. Does NOT check if unit actually has a taser.  
 
@@ -193,14 +193,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_katarnOS_fnc_canReloadTaser;
+[player] call rri_katarnOS_fnc_canReloadTaser;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_canUseVisualMineScan
+## rri_katarnOS_fnc_canUseVisualMineScan
 
 **Description:** Checks if the given unit can activate the visual mine scan.  
 
@@ -209,7 +209,7 @@ No documentation available.
 
 **Return Value:** canUseVisualMineScan? 
 
-## mti_katarnOS_fnc_getID
+## rri_katarnOS_fnc_getID
 
 **Description:** Returns the unit's commando ID.  
 
@@ -222,14 +222,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_katarnOS_fnc_getID;
+[player] call rri_katarnOS_fnc_getID;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_hasBackpack
+## rri_katarnOS_fnc_hasBackpack
 
 **Description:** Checks if given unit has equipped KatarnOS compatible backpack.  
 
@@ -242,14 +242,14 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_Player] call mti_katarnOS_fnc_hasBackpack;
+[ACE_Player] call rri_katarnOS_fnc_hasBackpack;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_hasBeacon
+## rri_katarnOS_fnc_hasBeacon
 
 **Description:** Checks if given unit has equipped KatarnOS compatible Beacon.  
 
@@ -262,14 +262,14 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_Player] call mti_katarnOS_fnc_hasBeacon;
+[ACE_Player] call rri_katarnOS_fnc_hasBeacon;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_hasHelmet
+## rri_katarnOS_fnc_hasHelmet
 
 **Description:** Checks if given unit has equipped KatarnOS compatible Helmet.  
 
@@ -282,14 +282,14 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_Player] call mti_katarnOS_fnc_hasHelmet;
+[ACE_Player] call rri_katarnOS_fnc_hasHelmet;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_hasHUD
+## rri_katarnOS_fnc_hasHUD
 
 **Description:** Checks if given unit has equipped KatarnOS compatible HUD projector.  
 
@@ -302,14 +302,14 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_Player] call mti_katarnOS_fnc_hasHUD;
+[ACE_Player] call rri_katarnOS_fnc_hasHUD;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_hasNV
+## rri_katarnOS_fnc_hasNV
 
 **Description:** Checks if given unit has equipped KatarnOS compatible NV.  
 
@@ -322,14 +322,14 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_Player] call mti_katarnOS_fnc_hasNV;
+[ACE_Player] call rri_katarnOS_fnc_hasNV;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_hasOS
+## rri_katarnOS_fnc_hasOS
 
 **Description:** Checks if given unit has equipped KatarnOS compatible OS equipment.  
 
@@ -342,14 +342,14 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_Player] call mti_katarnOS_fnc_hasOS;
+[ACE_Player] call rri_katarnOS_fnc_hasOS;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_hasSuit
+## rri_katarnOS_fnc_hasSuit
 
 **Description:** Checks if given unit has equipped KatarnOS compatible Suit.  
 
@@ -362,14 +362,14 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_Player] call mti_katarnOS_fnc_hasSuit;
+[ACE_Player] call rri_katarnOS_fnc_hasSuit;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_hasTaser
+## rri_katarnOS_fnc_hasTaser
 
 **Description:** Returns true if given unit has a wrist_plate tazer equipped.  
 
@@ -382,14 +382,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_katarnOS_fnc_hasTaser;
+[player] call rri_katarnOS_fnc_hasTaser;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_hasTRX
+## rri_katarnOS_fnc_hasTRX
 
 **Description:** Checks whether given unit as access to the integrated TRX-200 Mine Detection System.  
 
@@ -402,14 +402,14 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_player] call mti_katarnOS_fnc_hasTRX;
+[ACE_player] call rri_katarnOS_fnc_hasTRX;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_katarnHUDHandler
+## rri_katarnOS_fnc_katarnHUDHandler
 
 **Description:** Live data processor mapping core framework states to the new custom standard HUD layout.
 
@@ -423,7 +423,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_katarnOS_fnc_onVisionModeChanged
+## rri_katarnOS_fnc_onVisionModeChanged
 
 **Description:** Handles entering nightvision.  
 
@@ -437,14 +437,14 @@ No documentation available.
 ```
 
 (begin example)
-[player, 1] call mti_katarnOS_fnc_onVisionModeChanged;
+[player, 1] call rri_katarnOS_fnc_onVisionModeChanged;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_reloadRepulsorBlast
+## rri_katarnOS_fnc_reloadRepulsorBlast
 
 **Description:** Description...  
 
@@ -457,14 +457,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_katarnOS_fnc_reloadRepulsorBlast;
+[] call rri_katarnOS_fnc_reloadRepulsorBlast;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_reloadTaser
+## rri_katarnOS_fnc_reloadTaser
 
 **Description:** Reloads the taser.  
 
@@ -478,14 +478,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_katarnOS_fnc_reloadTaser;
+[player] call rri_katarnOS_fnc_reloadTaser;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_resetSystems
+## rri_katarnOS_fnc_resetSystems
 
 **Description:** Resets systems.  
 
@@ -498,14 +498,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_katarnOS_fnc_resetSystems;
+[player] call rri_katarnOS_fnc_resetSystems;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_taser_getTarget
+## rri_katarnOS_fnc_taser_getTarget
 
 **Description:** Returns closest available target for the taser (or objNull is none found)  
 
@@ -518,14 +518,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_katarnOS_fnc_taser_getTarget;
+[player] call rri_katarnOS_fnc_taser_getTarget;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_katarnOS_fnc_toggleLowlight
+## rri_katarnOS_fnc_toggleLowlight
 
 **Description:** Toggles low light vision mode  
 
@@ -539,7 +539,7 @@ No documentation available.
 ```
 
 (begin example)
-[player,true] call mti_katarnOS_fnc_toggleLowlight;
+[player,true] call rri_katarnOS_fnc_toggleLowlight;
 (end)
 
 ```

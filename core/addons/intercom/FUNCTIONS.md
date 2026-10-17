@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_intercom_fnc_activate
+## rri_intercom_fnc_activate
 
 **Description:** Activates the group intercom.  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-call mti_intercom_fnc_activate;
+call rri_intercom_fnc_activate;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_intercom_fnc_canActivate
+## rri_intercom_fnc_canActivate
 
 **Description:** Checks whether the group intercom can be activated  
 
@@ -30,14 +30,14 @@ call mti_intercom_fnc_activate;
 ```
 
 (begin example)
-call mti_intercom_fnc_canActivate;
+call rri_intercom_fnc_canActivate;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_intercom_fnc_canChangeVolume
+## rri_intercom_fnc_canChangeVolume
 
 **Description:** Checks whether the intercoms volume can be changed in the given direction (up or down).  
 
@@ -50,14 +50,14 @@ call mti_intercom_fnc_canActivate;
 ```
 
 (begin example)
-[true] call mti_intercom_fnc_canChangeVolume;
+[true] call rri_intercom_fnc_canChangeVolume;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_intercom_fnc_canDeactivate
+## rri_intercom_fnc_canDeactivate
 
 **Description:** Checks whether the group intercom can be deactivated  
 
@@ -67,14 +67,14 @@ call mti_intercom_fnc_canActivate;
 ```
 
 (begin example)
-call mti_intercom_fnc_canDeactivate;
+call rri_intercom_fnc_canDeactivate;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_intercom_fnc_canSwitchChannel
+## rri_intercom_fnc_canSwitchChannel
 
 **Description:** Checks, whether the group intercom can be switched to the given channel.  
 
@@ -87,14 +87,14 @@ call mti_intercom_fnc_canDeactivate;
 ```
 
 (begin example)
-[1] call mti_intercom_fnc_canSwitchChannel;
+[1] call rri_intercom_fnc_canSwitchChannel;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_intercom_fnc_changeVolume
+## rri_intercom_fnc_changeVolume
 
 **Description:** Changes the intercom volume in the given direction.  
 
@@ -107,14 +107,14 @@ call mti_intercom_fnc_canDeactivate;
 ```
 
 (begin example)
-[true] call mti_intercom_fnc_changeVolume;
+[true] call rri_intercom_fnc_changeVolume;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_intercom_fnc_deactivate
+## rri_intercom_fnc_deactivate
 
 **Description:** Deactivates the group intercom.  
 
@@ -127,14 +127,14 @@ call mti_intercom_fnc_canDeactivate;
 ```
 
 (begin example)
-[false] call mti_intercom_fnc_deactivate;
+[false] call rri_intercom_fnc_deactivate;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_intercom_fnc_hasIntercom
+## rri_intercom_fnc_hasIntercom
 
 **Description:** Checks whether the player has a group intercom.  
 
@@ -147,14 +147,14 @@ call mti_intercom_fnc_canDeactivate;
 ```
 
 (begin example)
-call mti_intercom_fnc_hasIntercom;
+call rri_intercom_fnc_hasIntercom;
 (end)
 
 ```
 
-**Author:** Mokka */  if (!isNil QGVAR(hasIntercomCache)) exitWith { GVAR(hasIntercomCache) };  if !(GVAR(systemEnabled)) exitWith { false };  /* // go through all unique items and check if mti_intercom_hasIntercom is set for any of them private _items = [ACE_Player] call ace_common_fnc_uniqueItems; _items pushBack (headgear ACE_Player); _items pushBack (uniform ACE_Player); _items pushBack (vest ACE_Player); _items pushBack (goggles ACE_Player); _items append (assignedItems ACE_Player);  private _uniqueItems = [_items] call ace_common_fnc_uniqueElements;  private _iCount = { (GET_BOOL(configFile >> "CfgWeapons" >> _x >> QGVAR(hasIntercom))) } count _uniqueItems;  // need to check backpack separately since it's a CfgVehicles entry _iCount = _iCount + GET_NUMBER(configFile >> "CfgVehicles" >> (backpack ACE_Player) >> QGVAR(hasIntercom), 0);  private _hasIntercom = _iCount > 0; 
+**Author:** Mokka */  if (!isNil QGVAR(hasIntercomCache)) exitWith { GVAR(hasIntercomCache) };  if !(GVAR(systemEnabled)) exitWith { false };  /* // go through all unique items and check if rri_intercom_hasIntercom is set for any of them private _items = [ACE_Player] call ace_common_fnc_uniqueItems; _items pushBack (headgear ACE_Player); _items pushBack (uniform ACE_Player); _items pushBack (vest ACE_Player); _items pushBack (goggles ACE_Player); _items append (assignedItems ACE_Player);  private _uniqueItems = [_items] call ace_common_fnc_uniqueElements;  private _iCount = { (GET_BOOL(configFile >> "CfgWeapons" >> _x >> QGVAR(hasIntercom))) } count _uniqueItems;  // need to check backpack separately since it's a CfgVehicles entry _iCount = _iCount + GET_NUMBER(configFile >> "CfgVehicles" >> (backpack ACE_Player) >> QGVAR(hasIntercom), 0);  private _hasIntercom = _iCount > 0; 
 
-## mti_intercom_fnc_isInRange
+## rri_intercom_fnc_isInRange
 
 **Description:** Checks whether player is in range of any other group members for intercom purposes  
 
@@ -167,14 +167,14 @@ call mti_intercom_fnc_hasIntercom;
 ```
 
 (begin example)
-[] call mti_intercom_fnc_isInRange;
+[] call rri_intercom_fnc_isInRange;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_intercom_fnc_switchChannel
+## rri_intercom_fnc_switchChannel
 
 **Description:** Switches the group intercom to the selected channel.  
 
@@ -187,7 +187,7 @@ call mti_intercom_fnc_hasIntercom;
 ```
 
 (begin example)
-[0] call mti_intercom_fnc_switchChannel;
+[0] call rri_intercom_fnc_switchChannel;
 (end)
 
 ```

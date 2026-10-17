@@ -1,4 +1,4 @@
-mti_vehicles
+rri_vehicles
 ===================
 
-Custom vehicles provided by MokTech Industries.
+Custom vehicles provided by Rowdy Rodent Induestries Industries.

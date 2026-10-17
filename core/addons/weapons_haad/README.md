@@ -1,4 +1,4 @@
-mti_haad
+rri_haad
 ===================
 
-Moktech Health and Ammo Dispenser
+Rowdy Rodent Induestries Health and Ammo Dispenser

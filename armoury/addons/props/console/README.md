@@ -1,4 +1,4 @@
-mti_armoury_props_console
+rri_armoury_props_console
 ===================
 
 Blank (sub) template feature.

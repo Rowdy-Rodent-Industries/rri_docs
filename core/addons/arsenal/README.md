@@ -1,4 +1,4 @@
-mti_arsenal
+rri_arsenal
 ===================
 
-Arsenal function definitions, data and configs used by MokTech Industries - Core.
+Arsenal function definitions, data and configs used by Rowdy Rodent Induestries Industries - Core.

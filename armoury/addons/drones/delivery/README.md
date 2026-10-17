@@ -1,4 +1,4 @@
-mti_armoury_drones_delivery
+rri_armoury_drones_delivery
 ===================
 
 Drones (delivery) template feature.

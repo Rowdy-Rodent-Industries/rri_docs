@@ -1,6 +1,6 @@
 # Config Properties
 
-## mti_armoury_type
+## rri_armoury_type
 
 - **Value:** Number (Enum)
 - **Config Type:** `CfgVehicles`
@@ -14,14 +14,14 @@
     - 7: Jump Trooper
     - 99: Command
 
-## mti_arsenal_preset
+## rri_arsenal_preset
 
 - **Value:** String
 - **Config Type:** `CfgVehicles`
 - **Description:** Controls which arsenal whitelist should be made available from `this` object.
 
-## mti_arsenal_whitelists
+## rri_arsenal_whitelists
 
 - **Value:** Array
 - **Config Type:** `CfgGlasses`, `CfgMagazines`, `CfgWeapons`, or `CfgVehicles`
-- **Description:** Adds `this` item/thing to the given arsenal whitelists. Entries here need to exist in the root config class `mti_arsenal_whitelists` to be parsed correctly.
+- **Description:** Adds `this` item/thing to the given arsenal whitelists. Entries here need to exist in the root config class `rri_arsenal_whitelists` to be parsed correctly.

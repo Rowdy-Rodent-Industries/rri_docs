@@ -1,4 +1,4 @@
-mti_armoury_statics
+rri_armoury_statics
 ===================
 
 Statics template feature.

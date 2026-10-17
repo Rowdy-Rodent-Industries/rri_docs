@@ -1,4 +1,4 @@
-mti_statics
+rri_statics
 ===================
 
 Statics, deployed from the shoulder.

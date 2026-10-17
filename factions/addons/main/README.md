@@ -1,4 +1,4 @@
-mti_factions_main
+rri_factions_main
 ===================
 
-Main addon for MokTech Industries - Factions.
+Main addon for Rowdy Rodent Induestries Industries - Factions.

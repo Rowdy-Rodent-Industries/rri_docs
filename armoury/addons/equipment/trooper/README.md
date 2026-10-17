@@ -1,4 +1,4 @@
-mti_equipment_trooper
+rri_equipment_trooper
 ===================
 
 Trooper template feature.

@@ -1,4 +1,4 @@
-mti_armoury_drones_gx
+rri_armoury_drones_gx
 ===================
 
 Drones (GX) template feature.

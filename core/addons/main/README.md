@@ -1,4 +1,4 @@
-mti_main
+rri_main
 ===================
 
-Main addon for MokTech Industries - Core.
+Main addon for Rowdy Rodent Induestries Industries - Core.

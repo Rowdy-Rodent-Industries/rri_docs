@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_statics_fnc_assemble
+## rri_statics_fnc_assemble
 
 **Description:** Unpacks a static.  
 
@@ -14,14 +14,14 @@
 ```
 
 (begin example)
-[] call mti_statics_fnc_assemble;
+[] call rri_statics_fnc_assemble;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_statics_fnc_canAssemble
+## rri_statics_fnc_canAssemble
 
 **Description:** Checks whether given unit has statics that can be unpacked.  
 
@@ -34,7 +34,7 @@
 ```
 
 (begin example)
-[player] call mti_statics_fnc_canAssemble;
+[player] call rri_statics_fnc_canAssemble;
 (end)
 
 ```
@@ -45,7 +45,7 @@
 
 No documentation available.
 
-## mti_statics_fnc_disassemble
+## rri_statics_fnc_disassemble
 
 **Description:** Handles disassembling/picking up  
 
@@ -59,14 +59,14 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_statics_fnc_disassemble;
+[...] call rri_statics_fnc_disassemble;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_statics_fnc_getAssembleActions
+## rri_statics_fnc_getAssembleActions
 
 **Description:** Returns child actions for static assembly based on current inventory.  
 
@@ -79,7 +79,7 @@ No documentation available.
 ```
 
 (begin example)
-[ace_player] call mti_statics_fnc_getAssembleActions;
+[ace_player] call rri_statics_fnc_getAssembleActions;
 (end)
 
 ```
@@ -90,7 +90,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_statics_fnc_rapid_deploy
+## rri_statics_fnc_rapid_deploy
 
 **Description:** Handles rapid deployment for the Statics.  
 
@@ -103,7 +103,7 @@ No documentation available.
 ```
 
 (begin example)
-call mti_statics_fnc_rapid_deploy;
+call rri_statics_fnc_rapid_deploy;
 (end)
 
 ```

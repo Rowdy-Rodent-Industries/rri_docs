@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_minedetector_fnc_activateDetector
+## rri_minedetector_fnc_activateDetector
 
 **Description:** Activate the mine detector  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[] call mti_minedetector_fnc_activateDetector
+[] call rri_minedetector_fnc_activateDetector
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_minedetector_fnc_canActivateDetector
+## rri_minedetector_fnc_canActivateDetector
 
 **Description:** Check if mine detector can be activated  
 
@@ -33,14 +33,14 @@
 ```
 
 (begin example)
-[] call mti_minedetector_fnc_canActivateDetector
+[] call rri_minedetector_fnc_canActivateDetector
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_minedetector_fnc_canDeactivateDetector
+## rri_minedetector_fnc_canDeactivateDetector
 
 **Description:** Check if mine detector can be deactivated  
 
@@ -53,14 +53,14 @@
 ```
 
 (begin example)
-[] call mti_minedetector_fnc_canDeactivateDetector
+[] call rri_minedetector_fnc_canDeactivateDetector
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_minedetector_fnc_deactivateDetector
+## rri_minedetector_fnc_deactivateDetector
 
 **Description:** Deactivate the mine detector  
 
@@ -73,14 +73,14 @@
 ```
 
 (begin example)
-[] call mti_minedetector_fnc_deactivateDetector
+[] call rri_minedetector_fnc_deactivateDetector
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_minedetector_fnc_detectorLoop
+## rri_minedetector_fnc_detectorLoop
 
 **Description:** Handle mine detection in a PFH loop  
 
@@ -94,14 +94,14 @@
 ```
 
 (begin example)
-[[...], 2] call mti_minedetector_fnc_detectorLoop
+[[...], 2] call rri_minedetector_fnc_detectorLoop
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_minedetector_fnc_disableDetector
+## rri_minedetector_fnc_disableDetector
 
 **Description:** Disables the mine detector  
 
@@ -115,14 +115,14 @@
 ```
 
 (begin example)
-[ACE_Player, "MTI_Detector"] call mti_minedetector_fnc_disableDetector
+[ACE_Player, "rri_Detector"] call rri_minedetector_fnc_disableDetector
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_minedetector_fnc_enableDetector
+## rri_minedetector_fnc_enableDetector
 
 **Description:** Enables the mine detector  
 
@@ -136,14 +136,14 @@
 ```
 
 (begin example)
-[ACE_Player, "MTI_Detector"] call mti_minedetector_fnc_enableDetector
+[ACE_Player, "rri_Detector"] call rri_minedetector_fnc_enableDetector
 (end)
 
 ```
 
 **Author:** Glowbal, Mokka 
 
-## mti_minedetector_fnc_hasDetector
+## rri_minedetector_fnc_hasDetector
 
 **Description:** Check if unit has a mine detector  
 
@@ -156,7 +156,7 @@
 ```
 
 (begin example)
-[ace_player] call mti_minedetector_fnc_hasDetector
+[ace_player] call rri_minedetector_fnc_hasDetector
 (end)
 
 ```

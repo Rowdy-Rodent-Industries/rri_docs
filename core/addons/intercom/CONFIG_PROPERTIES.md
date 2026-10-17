@@ -1,6 +1,6 @@
 # Config Properties
 
-## mti_intercom_hasIntercom
+## rri_intercom_hasIntercom
 
 - **Value:** Number (Bool)
 - **Config Type:** `CfgWeapons`, or `CfgVehicles`

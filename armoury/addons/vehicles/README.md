@@ -1,4 +1,4 @@
-mti_armoury_vehicles
+rri_armoury_vehicles
 ===================
 
 Vehicles template feature.

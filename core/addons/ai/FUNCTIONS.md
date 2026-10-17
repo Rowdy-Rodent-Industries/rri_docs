@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_ai_fnc_3den_populateAO
+## rri_ai_fnc_3den_populateAO
 
 **Description:** Internal helper function to run populateAI in 3den. Do not call directly unless you know what you're doing!  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[...] call mti_ai_fnc_3den_populateAO_3den;
+[...] call rri_ai_fnc_3den_populateAO_3den;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_ai_fnc_findSpawnPos
+## rri_ai_fnc_findSpawnPos
 
 **Description:** Finds a safe position based on the given parameters, using BIS_fnc_randomPos.  White-/Blacklist can be:  Object - trigger String - marker Array - in format [center, radius] or [center, [a, b, angle, rect]] Location - location  
 
@@ -36,14 +36,14 @@
 ```
 
 (begin example)
-_pos = [[[[0, 0, 0], 150],[]],["water"]] call mti_ai_fnc_findSpawnPos;
+_pos = [[[[0, 0, 0], 150],[]],["water"]] call rri_ai_fnc_findSpawnPos;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_ai_fnc_getFactions
+## rri_ai_fnc_getFactions
 
 **Description:** Returns available factions for the Populate AO functionality both as class names and as readily compiled display names  
 
@@ -56,14 +56,14 @@ _pos = [[[[0, 0, 0], 150],[]],["water"]] call mti_ai_fnc_findSpawnPos;
 ```
 
 (begin example)
-[] call mti_ai_fnc_getFactions;
+[] call rri_ai_fnc_getFactions;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_ai_fnc_getRoadWaypoints
+## rri_ai_fnc_getRoadWaypoints
 
 **Description:** Helper function to obtain waypoints on roads for the purpose of fnc_populateAO.  
 
@@ -78,14 +78,14 @@ _pos = [[[[0, 0, 0], 150],[]],["water"]] call mti_ai_fnc_findSpawnPos;
 ```
 
 (begin example)
-[] call mti_ai_fnc_getRoadWaypoints;
+[] call rri_ai_fnc_getRoadWaypoints;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_ai_fnc_localityChangedEH
+## rri_ai_fnc_localityChangedEH
 
 **Description:** Handles changes in locality, attempts to fix issues with garrisons.  
 
@@ -99,14 +99,14 @@ _pos = [[[[0, 0, 0], 150],[]],["water"]] call mti_ai_fnc_findSpawnPos;
 ```
 
 (begin example)
-[...] call mti_ai_fnc_localityChangedEH;
+[...] call rri_ai_fnc_localityChangedEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_ai_fnc_patrolRoad
+## rri_ai_fnc_patrolRoad
 
 **Description:** Sets up a patrol plotted along roads, rather than random positions dotted around the AO.  
 
@@ -121,22 +121,22 @@ _pos = [[[[0, 0, 0], 150],[]],["water"]] call mti_ai_fnc_findSpawnPos;
 ```
 
 (begin example)
-[] call mti_ai_fnc_patrolRoad;
+[] call rri_ai_fnc_patrolRoad;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_ai_fnc_populateAO
+## rri_ai_fnc_populateAO
 
-**Description:** Quickly populates an entire AO according to a variety of parameters. Available factions have to be defined as subclasses of MTI_PopulateAO_Factions.  
+**Description:** Quickly populates an entire AO according to a variety of parameters. Available factions have to be defined as subclasses of rri_PopulateAO_Factions.  
 
 **Arguments:**
 - `_grpPrefix` - The prefix for the group IDs <STRING>
 - `_center` - The center position of the area we want to populate <POSITION 3D>
 - `_radius` - The radius of the area we want to populate <SCALAR>
-- `_faction` - The faction which we want to use for populating the AO (subclass of MTI_PopulateAO_Factions) <STRING>
+- `_faction` - The faction which we want to use for populating the AO (subclass of rri_PopulateAO_Factions) <STRING>
 - `_args` _garr - Garrison Parameters <ARRAY OF [Group Count, Radius]>
 - `_args` _inf - Infantry Parameters <ARRAY OF [Min Amount of Groups, Random Upper Bound of Groups]>
 - `_args` _inf_aa - AA Parameters <ARRAY OF [Min Amount of Groups, Random Upper Bound of Groups]>
@@ -158,7 +158,7 @@ _pos = [[[[0, 0, 0], 150],[]],["water"]] call mti_ai_fnc_findSpawnPos;
 "aurek",
 [2955.43,6010.11,0],
 500,
-"MTI_CIS",
+"rri_CIS",
 [5, 100],
 [3, 5],
 [2, 3],
@@ -169,7 +169,7 @@ _pos = [[[[0, 0, 0], 150],[]],["water"]] call mti_ai_fnc_findSpawnPos;
 [2, 3],
 [1, 1, 100]
 "RANDOM"
-] call mti_ai_fnc_populateAO;
+] call rri_ai_fnc_populateAO;
 (end)
 
 ```

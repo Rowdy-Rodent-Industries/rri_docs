@@ -1,4 +1,4 @@
-mti_armoury_supplies
+rri_armoury_supplies
 ===================
 
 Supplies template feature.

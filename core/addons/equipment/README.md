@@ -1,4 +1,4 @@
-mti_equipment
+rri_equipment
 ===================
 
-Special Equipment provided by MokTech Industries.
+Special Equipment provided by Rowdy Rodent Induestries Industries.

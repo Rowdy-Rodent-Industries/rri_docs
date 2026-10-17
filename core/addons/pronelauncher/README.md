@@ -1,4 +1,4 @@
-mti_pronelauncher
+rri_pronelauncher
 ========
 
 Enables prone launcher animations.

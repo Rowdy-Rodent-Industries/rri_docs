@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_medical_stretcher_fnc_canDeploy
+## rri_medical_stretcher_fnc_canDeploy
 
 **Description:** Checks if unit can deploy stretcher.  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_canDeploy;
+[] call rri_medical_stretcher_fnc_canDeploy;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_canEjectPatient
+## rri_medical_stretcher_fnc_canEjectPatient
 
 **Description:** Checks whether player can eject patient from the stretcher.  
 
@@ -34,14 +34,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_canEjectPatient;
+[] call rri_medical_stretcher_fnc_canEjectPatient;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_canLoadViV
+## rri_medical_stretcher_fnc_canLoadViV
 
 **Description:** Checks whether stretcher can be loaded into a nearby vehicle via ViV.  
 
@@ -55,14 +55,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_canLoadViV;
+[] call rri_medical_stretcher_fnc_canLoadViV;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_canMove
+## rri_medical_stretcher_fnc_canMove
 
 **Description:** Checks whether stretcher can be moved by player.  
 
@@ -76,14 +76,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_canMove;
+[] call rri_medical_stretcher_fnc_canMove;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_deploy
+## rri_medical_stretcher_fnc_deploy
 
 **Description:** Deploys stretcher from folded inventory object.  
 
@@ -97,14 +97,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_deploy;
+[] call rri_medical_stretcher_fnc_deploy;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_ejectPatient
+## rri_medical_stretcher_fnc_ejectPatient
 
 **Description:** Ejects patient from the stretcher.  
 
@@ -118,14 +118,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_ejectPatient;
+[] call rri_medical_stretcher_fnc_ejectPatient;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_drones_fnc_getAssembleActions
+## rri_drones_fnc_getAssembleActions
 
 **Description:** Returns child actions for stretcher assembly based on current inventory.  
 
@@ -138,14 +138,14 @@
 ```
 
 (begin example)
-[ace_player] call mti_drones_fnc_getAssembleActions;
+[ace_player] call rri_drones_fnc_getAssembleActions;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_handleScrollWheel
+## rri_medical_stretcher_fnc_handleScrollWheel
 
 **Description:** Handles height adjustment for the stretcher.  
 
@@ -158,14 +158,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_handleScrollWheel;
+[] call rri_medical_stretcher_fnc_handleScrollWheel;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_initStretcher
+## rri_medical_stretcher_fnc_initStretcher
 
 **Description:** Handles init for the stretcher vehicle. Sets up the alert system for patients.  
 
@@ -178,14 +178,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_initStretcher;
+[] call rri_medical_stretcher_fnc_initStretcher;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_loadViV
+## rri_medical_stretcher_fnc_loadViV
 
 **Description:** Loads stretcher into nearby vehicle via ViV.  
 
@@ -199,14 +199,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_loadViV;
+[] call rri_medical_stretcher_fnc_loadViV;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_move
+## rri_medical_stretcher_fnc_move
 
 **Description:** Handles moving/beingMoved the stretcher  
 
@@ -221,14 +221,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_move;
+[] call rri_medical_stretcher_fnc_move;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_movePFH
+## rri_medical_stretcher_fnc_movePFH
 
 **Description:** PFH to check if moving stretcher should be aborted  
 
@@ -242,14 +242,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_movePFH;
+[] call rri_medical_stretcher_fnc_movePFH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_packUp
+## rri_medical_stretcher_fnc_packUp
 
 **Description:** Pack up the stretcher into its folded variant.  
 
@@ -263,14 +263,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_packUp;
+[] call rri_medical_stretcher_fnc_packUp;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_stopMoving
+## rri_medical_stretcher_fnc_stopMoving
 
 **Description:** Handles detaching the stretcher and resetting variable after moving completed.  
 
@@ -284,14 +284,14 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_stopMoving;
+[] call rri_medical_stretcher_fnc_stopMoving;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_medical_stretcher_fnc_unloadViV
+## rri_medical_stretcher_fnc_unloadViV
 
 **Description:** Unloads stretcher from vehicle via ViV.  
 
@@ -305,7 +305,7 @@
 ```
 
 (begin example)
-[] call mti_medical_stretcher_fnc_unloadViV;
+[] call rri_medical_stretcher_fnc_unloadViV;
 (end)
 
 ```

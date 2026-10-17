@@ -1,4 +1,4 @@
-mti_armoury_props
+rri_armoury_props
 ===================
 
 Props template feature.

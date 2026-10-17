@@ -1,2 +1,2 @@
-mti_equipment_arc
+rri_equipment_arc
 ===================

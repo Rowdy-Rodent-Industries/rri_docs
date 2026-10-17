@@ -1,2 +1,2 @@
-mti_armoury_equipment_customs
+rri_armoury_equipment_customs
 ===================

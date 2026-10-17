@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_weapons_core_fnc_15sFiredEH
+## rri_weapons_core_fnc_15sFiredEH
 
 **Description:** Handles setting the recharge delay when the 15s has been fired.  
 
@@ -19,14 +19,14 @@
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_15sFiredEH;
+_this call rri_weapons_core_fnc_15sFiredEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_15sPFEH
+## rri_weapons_core_fnc_15sPFEH
 
 **Description:** Per-frame handler to slowly recharge the DC-15s side-arm.  
 
@@ -40,14 +40,14 @@ _this call mti_weapons_core_fnc_15sFiredEH;
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_15sPFEH;
+_this call rri_weapons_core_fnc_15sPFEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_17sARC_LoadoutEH
+## rri_weapons_core_fnc_17sARC_LoadoutEH
 
 **Description:** Handles adding accessories after equipping/unequipping the 17s ARC  
 
@@ -62,14 +62,14 @@ _this call mti_weapons_core_fnc_15sPFEH;
 ```
 
 (begin example)
-[ACE_player] call mti_weapons_core_fnc_17sARC_LoadoutEH;
+[ACE_player] call rri_weapons_core_fnc_17sARC_LoadoutEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_17sDual_FiredEH
+## rri_weapons_core_fnc_17sDual_FiredEH
 
 **Description:** Handles switching between the two guns  
 
@@ -88,14 +88,14 @@ _this call mti_weapons_core_fnc_15sPFEH;
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_17sDual_FiredEH;
+_this call rri_weapons_core_fnc_17sDual_FiredEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_17sDual_LoadoutEH
+## rri_weapons_core_fnc_17sDual_LoadoutEH
 
 **Description:** Handles setting ammo values after equipping/unequipping the 17s Dual  
 
@@ -110,14 +110,14 @@ _this call mti_weapons_core_fnc_17sDual_FiredEH;
 ```
 
 (begin example)
-[ACE_player] call mti_weapons_core_fnc_17sDual_LoadoutEH;
+[ACE_player] call rri_weapons_core_fnc_17sDual_LoadoutEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_17sDual_ReloadedEH
+## rri_weapons_core_fnc_17sDual_ReloadedEH
 
 **Description:** Handles reloading the dual weapons  
 
@@ -134,14 +134,14 @@ _this call mti_weapons_core_fnc_17sDual_FiredEH;
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_17sDual_ReloadedEH;
+_this call rri_weapons_core_fnc_17sDual_ReloadedEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_airburst_firedEH
+## rri_weapons_core_fnc_airburst_firedEH
 
 **Description:** Handles releasing airburst munitions after delay has expired.  
 
@@ -160,14 +160,14 @@ _this call mti_weapons_core_fnc_17sDual_ReloadedEH;
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_airburst_firedEH;
+[...] call rri_weapons_core_fnc_airburst_firedEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_setTimer
+## rri_weapons_core_fnc_setTimer
 
 **Description:** Handles setting the delay for airburst munitions.  
 
@@ -180,14 +180,14 @@ _this call mti_weapons_core_fnc_17sDual_ReloadedEH;
 ```
 
 (begin example)
-[] call mti_weapons_core_fnc_setTimer;
+[] call rri_weapons_core_fnc_setTimer;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_canImproviseAmmo
+## rri_weapons_core_fnc_canImproviseAmmo
 
 **Description:** Checks whether given player can improvise ammo for their current weapon  
 
@@ -200,14 +200,14 @@ _this call mti_weapons_core_fnc_17sDual_ReloadedEH;
 ```
 
 (begin example)
-[ace_player] call mti_weapons_core_fnc_canImproviseAmmo;
+[ace_player] call rri_weapons_core_fnc_canImproviseAmmo;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_check15LEMuzzle
+## rri_weapons_core_fnc_check15LEMuzzle
 
 **Description:** Makes sure that DC-15LE has the correct muzzle attachment.  
 
@@ -220,14 +220,14 @@ _this call mti_weapons_core_fnc_17sDual_ReloadedEH;
 ```
 
 (begin example)
-[ACE_player] call mti_weapons_core_fnc_check15LEMuzzle;
+[ACE_player] call rri_weapons_core_fnc_check15LEMuzzle;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_checkNT242Walk
+## rri_weapons_core_fnc_checkNT242Walk
 
 **Description:** Checks walk state based on NT-242 weapon presence in player's loadout.  
 
@@ -242,7 +242,7 @@ _this call mti_weapons_core_fnc_17sDual_ReloadedEH;
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_checkNT242Walk;
+[...] call rri_weapons_core_fnc_checkNT242Walk;
 (end)
 
 ```
@@ -257,13 +257,13 @@ No documentation available.
 
 No documentation available.
 
-## mti_weapons_core_fnc_decoyGrenade
+## rri_weapons_core_fnc_decoyGrenade
 
-**Description:** creates hologram of a clone when the holo projector or whatever grenade attached is thrown and impacts  to add this to the grenade GVAR_CORE(weapons_core,ammoType) = 13;        (this is the call for the grenade itself) GVAR_CORE(weapons_core,decoyUnit) = "mti_armoury_equipment_trooper_unit_holo";     (replace the unit path with whatever unit you want to use, otherwise it will default to a soldier)  
+**Description:** creates hologram of a clone when the holo projector or whatever grenade attached is thrown and impacts  to add this to the grenade GVAR_CORE(weapons_core,ammoType) = 13;        (this is the call for the grenade itself) GVAR_CORE(weapons_core,decoyUnit) = "rri_armoury_equipment_trooper_unit_holo";     (replace the unit path with whatever unit you want to use, otherwise it will default to a soldier)  
 
 **Author:** Wolfen 
 
-## mti_weapons_core_fnc_droidAttackFlare_FiredEH
+## rri_weapons_core_fnc_droidAttackFlare_FiredEH
 
 **Description:** Handles launching the droid attack flare  
 
@@ -282,14 +282,14 @@ No documentation available.
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_droidAttackFlare_FiredEH;
+_this call rri_weapons_core_fnc_droidAttackFlare_FiredEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_emergencyFlare_FiredEH
+## rri_weapons_core_fnc_emergencyFlare_FiredEH
 
 **Description:** Handles launching the emergency flare  
 
@@ -308,7 +308,7 @@ _this call mti_weapons_core_fnc_droidAttackFlare_FiredEH;
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_emergencyFlare_FiredEH;
+_this call rri_weapons_core_fnc_emergencyFlare_FiredEH;
 (end)
 
 ```
@@ -319,7 +319,7 @@ _this call mti_weapons_core_fnc_emergencyFlare_FiredEH;
 
 No documentation available.
 
-## mti_weapons_core_fnc_haad_FiredEH
+## rri_weapons_core_fnc_haad_FiredEH
 
 **Description:** Handles attaching the Health an Ammo Dispenser to the proper Grenade  
 
@@ -338,14 +338,14 @@ No documentation available.
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_haad_FiredEH;
+_this call rri_weapons_core_fnc_haad_FiredEH;
 (end)
 
 ```
 
-**Author:** Chimera */  params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile"];  // backlog: emptied func for now /* private _isHAAD = _ammo isKindOf "MTI_ammo_haad";  if (_isHAAD) then { private _vehicle = createVehicle ["mti_haad", getPos _projectile]; _vehicle attachTo [_projectile, [0,0,0]]; _vehicle setVariable [QEGVAR(haad,charges),3,true]; }; 
+**Author:** Chimera */  params ["_unit", "_weapon", "_muzzle", "_mode", "_ammo", "_magazine", "_projectile"];  // backlog: emptied func for now /* private _isHAAD = _ammo isKindOf "rri_ammo_haad";  if (_isHAAD) then { private _vehicle = createVehicle ["rri_haad", getPos _projectile]; _vehicle attachTo [_projectile, [0,0,0]]; _vehicle setVariable [QEGVAR(haad,charges),3,true]; }; 
 
-## mti_weapons_core_fnc_Halothane_firedEH
+## rri_weapons_core_fnc_Halothane_firedEH
 
 **Description:** Handles the release of Halothane particles.  
 
@@ -364,7 +364,7 @@ _this call mti_weapons_core_fnc_haad_FiredEH;
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_halothane_firedEH;
+[...] call rri_weapons_core_fnc_halothane_firedEH;
 (end)
 
 ```
@@ -387,7 +387,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_weapons_core_fnc_handleTracking
+## rri_weapons_core_fnc_handleTracking
 
 **Description:** Description...  
 
@@ -400,14 +400,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_weapons_core_fnc_handleTracking;
+[] call rri_weapons_core_fnc_handleTracking;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_huntIR_FiredEH
+## rri_weapons_core_fnc_huntIR_FiredEH
 
 **Description:** Handles launching the handheld huntIR  
 
@@ -426,14 +426,14 @@ No documentation available.
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_huntIR_FiredEH;
+_this call rri_weapons_core_fnc_huntIR_FiredEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_improviseAmmo
+## rri_weapons_core_fnc_improviseAmmo
 
 **Description:** Allows player to improvise some ammo for the Verpine Shatter Rifle.  
 
@@ -446,14 +446,14 @@ _this call mti_weapons_core_fnc_huntIR_FiredEH;
 ```
 
 (begin example)
-[ace_player] call mti_weapons_core_fnc_improviseAmmo;
+[ace_player] call rri_weapons_core_fnc_improviseAmmo;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_loadout
+## rri_weapons_core_fnc_loadout
 
 **Description:** Loadout EH.  
 
@@ -466,14 +466,14 @@ _this call mti_weapons_core_fnc_huntIR_FiredEH;
 ```
 
 (begin example)
-[] call mti_weapons_core_fnc_loadout;
+[] call rri_weapons_core_fnc_loadout;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_onHit
+## rri_weapons_core_fnc_onHit
 
 **Description:** Handles onHit events for units.  
 
@@ -496,14 +496,14 @@ _this call mti_weapons_core_fnc_huntIR_FiredEH;
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_onHit;
+[...] call rri_weapons_core_fnc_onHit;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_onHit_Acid
+## rri_weapons_core_fnc_onHit_Acid
 
 **Description:** Handle unit gettting hit by an acid round. For a specified duration after a unit got hit by a round of this type, the unit's corpse will be "dissolved" after a while.  
 
@@ -518,7 +518,7 @@ _this call mti_weapons_core_fnc_huntIR_FiredEH;
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_onHit_Acid;
+[...] call rri_weapons_core_fnc_onHit_Acid;
 (end)
 
 ```
@@ -529,7 +529,7 @@ _this call mti_weapons_core_fnc_huntIR_FiredEH;
 
 No documentation available.
 
-## mti_weapons_core_fnc_onHit_HackShot
+## rri_weapons_core_fnc_onHit_HackShot
 
 **Description:** Handle unit gettting hit by a hacking round.  
 
@@ -544,14 +544,14 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_onHit_HackShot;
+[...] call rri_weapons_core_fnc_onHit_HackShot;
 (end)
 
 ```
 
 **Author:** Arcanist 
 
-## mti_weapons_core_fnc_onHit_Ion
+## rri_weapons_core_fnc_onHit_Ion
 
 **Description:** Handle unit gettting hit by an ion round. Modified version of the stun/ion system written by Crimzonkat for Legion Studios.  
 
@@ -566,14 +566,14 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_onHit_Ion;
+[...] call rri_weapons_core_fnc_onHit_Ion;
 (end)
 
 ```
 
 **Author:** Crimzonkat, modified by Mokka 
 
-## mti_weapons_core_fnc_onHit_Medical
+## rri_weapons_core_fnc_onHit_Medical
 
 **Description:** Handle unit gettting hit by a medical round. Administers dose of given meds to the target.  
 
@@ -589,7 +589,7 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_onHit_Medical;
+[...] call rri_weapons_core_fnc_onHit_Medical;
 (end)
 
 ```
@@ -600,7 +600,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_weapons_core_fnc_onHit_Stun
+## rri_weapons_core_fnc_onHit_Stun
 
 **Description:** Handle unit gettting hit by a stun round. Modified version of the stun/ion system written by Crimzonkat for Legion Studios.  
 
@@ -615,7 +615,7 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_onHit_Stun;
+[...] call rri_weapons_core_fnc_onHit_Stun;
 (end)
 
 ```
@@ -626,7 +626,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_weapons_core_fnc_onHit_Tracking
+## rri_weapons_core_fnc_onHit_Tracking
 
 **Description:** Handle unit gettting hit by a tracking round. Will place a tracking marker on player's map that updates with target's position occasionally.  
 
@@ -641,7 +641,7 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_onHit_Tracking;
+[...] call rri_weapons_core_fnc_onHit_Tracking;
 (end)
 
 ```
@@ -656,7 +656,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_weapons_core_fnc_shadowVirus_firedEH
+## rri_weapons_core_fnc_shadowVirus_firedEH
 
 **Description:** Handles the release of ShadowVirus particles.  
 
@@ -675,20 +675,20 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_shadowVirus_firedEH;
+[...] call rri_weapons_core_fnc_shadowVirus_firedEH;
 (end)
 
 ```
 
 **Author:** Arcanist 
 
-## mti_weapons_core_fnc_smartScope
+## rri_weapons_core_fnc_smartScope
 
-**Description:** Creates tracking boxes for all infantry or vehicles seen in scope  to add this to the gun/scope depending on if its directly attached or a seperate scope mti_core_hasSmartScope = 1;  
+**Description:** Creates tracking boxes for all infantry or vehicles seen in scope  to add this to the gun/scope depending on if its directly attached or a seperate scope rri_core_hasSmartScope = 1;  
 
 **Author:** Wolfen 
 
-## mti_weapons_core_fnc_stun
+## rri_weapons_core_fnc_stun
 
 **Description:** Handles effects for units getting stunned/ion'd. Modified version of the function written by Crimzonkat for Legion Studios.  
 
@@ -703,14 +703,14 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_stun;
+[...] call rri_weapons_core_fnc_stun;
 (end)
 
 ```
 
 **Author:** Crimzonkat, modified by Mokka 
 
-## mti_weapons_core_fnc_stun_FiredEH
+## rri_weapons_core_fnc_stun_FiredEH
 
 **Description:** Handles setting values for recharging the ion and stun cells  
 
@@ -729,14 +729,14 @@ No documentation available.
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_stun_FiredEH;
+_this call rri_weapons_core_fnc_stun_FiredEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_stun_PFEH
+## rri_weapons_core_fnc_stun_PFEH
 
 **Description:** Handles "recharging" the stun and ion cells  
 
@@ -750,14 +750,14 @@ _this call mti_weapons_core_fnc_stun_FiredEH;
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_stun_FPFEH
+_this call rri_weapons_core_fnc_stun_FPFEH
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_stun_UAEH
+## rri_weapons_core_fnc_stun_UAEH
 
 **Description:** Handles setting ammo count correctly when switching to stun muzzle  
 
@@ -770,14 +770,14 @@ _this call mti_weapons_core_fnc_stun_FPFEH
 ```
 
 (begin example)
-_this call mti_weapons_core_fnc_stun_UAEH
+_this call rri_weapons_core_fnc_stun_UAEH
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_weapons_core_fnc_swapForegrip
+## rri_weapons_core_fnc_swapForegrip
 
 **Description:** Swaps the given weapon based on if it has a foregrip or not.  
 
@@ -791,7 +791,7 @@ _this call mti_weapons_core_fnc_stun_UAEH
 ```
 
 (begin example)
-[...] call mti_weapons_core_fnc_swapForegrip;
+[...] call rri_weapons_core_fnc_swapForegrip;
 (end)
 
 ```

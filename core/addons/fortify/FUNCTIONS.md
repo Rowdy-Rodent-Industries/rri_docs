@@ -4,7 +4,7 @@
 
 No documentation available.
 
-## mti_fortify_fnc_addActionToObject
+## rri_fortify_fnc_addActionToObject
 
 **Description:** Adds action to remove and edit object after it was deployed.  
 
@@ -19,14 +19,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_addActionToObject;
+[] call rri_fortify_fnc_addActionToObject;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_addContainerActions
+## rri_fortify_fnc_addContainerActions
 
 **Description:** Adds ace interactions to container.  
 
@@ -40,7 +40,7 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_addContainerActions;
+[] call rri_fortify_fnc_addContainerActions;
 (end)
 
 ```
@@ -55,7 +55,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_addPresetActions
+## rri_fortify_fnc_addPresetActions
 
 **Description:** Adds child actions to the presets for each object.  
 
@@ -68,7 +68,7 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_fortify_fnc_addPresetActions;
+[...] call rri_fortify_fnc_addPresetActions;
 (end)
 
 ```
@@ -83,7 +83,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_canCreateFOBMarker
+## rri_fortify_fnc_canCreateFOBMarker
 
 **Description:** Checks whether an FOB marker can be deployed from given object.  
 
@@ -97,7 +97,7 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_canCreateFOBMarker;
+[] call rri_fortify_fnc_canCreateFOBMarker;
 (end)
 
 ```
@@ -108,7 +108,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_canRecallObjectsPlayer
+## rri_fortify_fnc_canRecallObjectsPlayer
 
 **Description:** Checks whether player has any objects to recall to the backpack.  
 
@@ -121,14 +121,14 @@ No documentation available.
 ```
 
 (begin example)
-[ace_player] call mti_fortify_fnc_canRecallObjectsPlayer;
+[ace_player] call rri_fortify_fnc_canRecallObjectsPlayer;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_compositionDeployCanceled
+## rri_fortify_fnc_compositionDeployCanceled
 
 **Description:** Resets values after composition deploy was cancelled.  
 
@@ -141,7 +141,7 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_compositionDeployCanceled;
+[] call rri_fortify_fnc_compositionDeployCanceled;
 (end)
 
 ```
@@ -152,7 +152,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_compositionDeployFinished
+## rri_fortify_fnc_compositionDeployFinished
 
 **Description:** Handles placing the composition after placement, runs post-deploy handlers and triggers events.  
 
@@ -165,14 +165,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_compositionDeployFinished;
+[] call rri_fortify_fnc_compositionDeployFinished;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_compositionPlaced
+## rri_fortify_fnc_compositionPlaced
 
 **Description:** Handles composition being placed, server-side broadcast  
 
@@ -190,14 +190,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_compositionPlaced;
+[] call rri_fortify_fnc_compositionPlaced;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_createFOBMarker
+## rri_fortify_fnc_createFOBMarker
 
 **Description:** Creates a FOB marker on the given target's position.  
 
@@ -211,7 +211,7 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_createFOBMarker;
+[] call rri_fortify_fnc_createFOBMarker;
 (end)
 
 ```
@@ -222,7 +222,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_deleteFOBMarker
+## rri_fortify_fnc_deleteFOBMarker
 
 **Description:** Delete the FOB marker of the given target.  
 
@@ -236,14 +236,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_deleteFOBMarker;
+[] call rri_fortify_fnc_deleteFOBMarker;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_deployCanceled
+## rri_fortify_fnc_deployCanceled
 
 **Description:** Resets values if deployment was canceled  
 
@@ -256,7 +256,7 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_deployCanceled;
+[] call rri_fortify_fnc_deployCanceled;
 (end)
 
 ```
@@ -271,7 +271,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_deployFinished
+## rri_fortify_fnc_deployFinished
 
 **Description:** Deploys the object after placement, runs post-deploy handlers and triggers events  
 
@@ -284,7 +284,7 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_deployFinished;
+[] call rri_fortify_fnc_deployFinished;
 (end)
 
 ```
@@ -295,7 +295,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_exportComposition
+## rri_fortify_fnc_exportComposition
 
 **Description:** Exports the given composition to clipboard.  
 
@@ -309,14 +309,14 @@ No documentation available.
 ```
 
 (begin example)
-[ace_player] call mti_fortify_fnc_exportComposition;
+[ace_player] call rri_fortify_fnc_exportComposition;
 (end)
 
 ```
 
 **Author:** Mokka */  params ["_name", "_data"];  private _br = toString [13, 10]; private _tab = toString [9]; private _output = format ["/*%1Composition Export:%1%2Name: %3%1%2Cost: %4%1 
 
-## mti_fortify_fnc_getAvailablePresets
+## rri_fortify_fnc_getAvailablePresets
 
 **Description:** Returns available presets/containers in area (and from backpack)  
 
@@ -329,7 +329,7 @@ No documentation available.
 ```
 
 (begin example)
-[ACE_player] call mti_fortify_fnc_getAvailablePresets;
+[ACE_player] call rri_fortify_fnc_getAvailablePresets;
 (end)
 
 ```
@@ -344,7 +344,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_getCompositionConfig
+## rri_fortify_fnc_getCompositionConfig
 
 **Description:** Helper function to get config path to given composition.  
 
@@ -357,14 +357,14 @@ No documentation available.
 ```
 
 (begin example)
-["Example_Composition"] call mti_fortify_fnc_getCompositionConfig;
+["Example_Composition"] call rri_fortify_fnc_getCompositionConfig;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_getContainerPresets
+## rri_fortify_fnc_getContainerPresets
 
 **Description:** Returns a hashmap of all the given containers presets and the attached budget.  
 
@@ -377,7 +377,7 @@ No documentation available.
 ```
 
 (begin example)
-[cursorTarget] call mti_fortify_fnc_getContainerPresets;
+[cursorTarget] call rri_fortify_fnc_getContainerPresets;
 (end)
 
 ```
@@ -388,7 +388,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_getObjectCount
+## rri_fortify_fnc_getObjectCount
 
 **Description:** Returns how often given object has already been deployed from a container.  
 
@@ -403,14 +403,14 @@ No documentation available.
 ```
 
 (begin example)
-[cursorTarget, "Example_Preset", "Sandbag"] call mti_fortify_fnc_getObjectCount;
+[cursorTarget, "Example_Preset", "Sandbag"] call rri_fortify_fnc_getObjectCount;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_getPresetConfig
+## rri_fortify_fnc_getPresetConfig
 
 **Description:** Helper function to get config path to given preset.  
 
@@ -423,14 +423,14 @@ No documentation available.
 ```
 
 (begin example)
-["Example_Preset"] call mti_fortify_fnc_getPresetConfig;
+["Example_Preset"] call rri_fortify_fnc_getPresetConfig;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_getPresetObjects
+## rri_fortify_fnc_getPresetObjects
 
 **Description:** Returns all of a preset's objects, costs and limits  
 
@@ -443,7 +443,7 @@ No documentation available.
 ```
 
 (begin example)
-["Example_Preset"] call mti_fortify_fnc_getPresetObjects;
+["Example_Preset"] call rri_fortify_fnc_getPresetObjects;
 (end)
 
 ```
@@ -462,7 +462,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_interaction_addCompositionActions
+## rri_fortify_fnc_interaction_addCompositionActions
 
 **Description:** Adds composition actions to suitable containers in player's vicinity.  
 
@@ -475,14 +475,14 @@ No documentation available.
 ```
 
 (begin example)
-[0] call mti_fortify_fnc_interaction_addCompositionActions;
+[0] call rri_fortify_fnc_interaction_addCompositionActions;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_interaction_addSaveActions
+## rri_fortify_fnc_interaction_addSaveActions
 
 **Description:** Adds save/load composition actions to suitable containers in player's vicinity.  
 
@@ -495,14 +495,14 @@ No documentation available.
 ```
 
 (begin example)
-[0] call mti_fortify_fnc_interaction_addSaveActions;
+[0] call rri_fortify_fnc_interaction_addSaveActions;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_loadComposition
+## rri_fortify_fnc_loadComposition
 
 **Description:** Handles loading a composition from a save container.  
 
@@ -515,14 +515,14 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_fortify_fnc_loadComposition;
+[...] call rri_fortify_fnc_loadComposition;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_manageSavedCompositions
+## rri_fortify_fnc_manageSavedCompositions
 
 **Description:** Handles the dialog to rename/remove saved compositions.  
 
@@ -535,14 +535,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_manageSavedCompositions;
+[] call rri_fortify_fnc_manageSavedCompositions;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_objectPlaced
+## rri_fortify_fnc_objectPlaced
 
 **Description:** Handles object being placed, server broadcast  
 
@@ -558,16 +558,16 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_fortify_fnc_objectPlaced;
+[] call rri_fortify_fnc_objectPlaced;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_fortify_fnc_objectsGrabber
+## rri_fortify_fnc_objectsGrabber
 
-**Description:** Helper function to grab nearby objects and save them in format compatible with mti_fortify_fnc_objectsMapper. Grabbed objects are also exported to clipboard for quick saving.  
+**Description:** Helper function to grab nearby objects and save them in format compatible with rri_fortify_fnc_objectsMapper. Grabbed objects are also exported to clipboard for quick saving.  
 
 **Arguments:**
 - `_pos` - Center position
@@ -580,7 +580,7 @@ No documentation available.
 ```
 
 (begin example)
-[position ACE_player,150] call mti_fortify_fnc_objectsGrabber;
+[position ACE_player,150] call rri_fortify_fnc_objectsGrabber;
 (end)
 
 ```
@@ -591,7 +591,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_recallAllCompositions
+## rri_fortify_fnc_recallAllCompositions
 
 **Description:** Recalls all objects deployed from given container through compositions.  
 
@@ -604,14 +604,14 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_fortify_fnc_recallAllCompositions;
+[...] call rri_fortify_fnc_recallAllCompositions;
 (end)
 
 ```
 
 **Author:** Mokka */  /* todo: figure out if we want to limit the range of the recall?! e.g. only objects within 100m can be recalled using this.... 
 
-## mti_fortify_fnc_recallAllObjects
+## rri_fortify_fnc_recallAllObjects
 
 **Description:** Recalls all preset objects deployed from given container, returning budget.  
 
@@ -624,14 +624,14 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_fortify_fnc_recallAllObjects;
+[...] call rri_fortify_fnc_recallAllObjects;
 (end)
 
 ```
 
 **Author:** Mokka */  /* todo: figure out if we want to limit the range of the recall?! e.g. only objects within 100m can be recalled using this.... 
 
-## mti_fortify_fnc_recallAllObjectsPlayer
+## rri_fortify_fnc_recallAllObjectsPlayer
 
 **Description:** Recalls all objects placed from player backpack  
 
@@ -644,14 +644,14 @@ No documentation available.
 ```
 
 (begin example)
-[ace_player] call mti_fortify_fnc_recallAllObjectsPlayer;
+[ace_player] call rri_fortify_fnc_recallAllObjectsPlayer;
 (end)
 
 ```
 
 **Author:** Mokka */  /* todo: figure out if we want to limit the range of the recall?! e.g. only objects within 100m can be recalled using this.... 
 
-## mti_fortify_fnc_saveComposition
+## rri_fortify_fnc_saveComposition
 
 **Description:** Handles saving nearby deployed objects into a composition  
 
@@ -664,7 +664,7 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_fortify_fnc_saveComposition;
+[...] call rri_fortify_fnc_saveComposition;
 (end)
 
 ```
@@ -679,7 +679,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_fortify_fnc_updateObjectCount
+## rri_fortify_fnc_updateObjectCount
 
 **Description:** Updates deployedObjects variable on the container.  
 
@@ -695,7 +695,7 @@ No documentation available.
 ```
 
 (begin example)
-[containerA, "Example_Preset", "Sandbag", +1] call mti_fortify_fnc_updateObjectCount;
+[containerA, "Example_Preset", "Sandbag", +1] call rri_fortify_fnc_updateObjectCount;
 (end)
 
 ```

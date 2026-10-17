@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_pangolin_fnc_activateShield
+## rri_pangolin_fnc_activateShield
 
 **Description:** Handles shield activation  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[] call mti_pangolin_fnc_activateShield;
+[] call rri_pangolin_fnc_activateShield;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_pangolin_fnc_canActivateShield
+## rri_pangolin_fnc_canActivateShield
 
 **Description:** Checks whether shield can be activated.  
 
@@ -33,14 +33,14 @@
 ```
 
 (begin example)
-[player] call mti_pangolin_fnc_canActivateShield;
+[player] call rri_pangolin_fnc_canActivateShield;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_pangolin_fnc_canDeactivateShield
+## rri_pangolin_fnc_canDeactivateShield
 
 **Description:** Checks whether shield can be deactivated.  
 
@@ -53,14 +53,14 @@
 ```
 
 (begin example)
-[player] call mti_pangolin_fnc_canDeactivateShield;
+[player] call rri_pangolin_fnc_canDeactivateShield;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_pangolin_fnc_deactivateShield
+## rri_pangolin_fnc_deactivateShield
 
 **Description:** Takes care of shield deactivation.  
 
@@ -73,14 +73,14 @@
 ```
 
 (begin example)
-[] call mti_pangolin_fnc_deactivateShield;
+[] call rri_pangolin_fnc_deactivateShield;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_pangolin_fnc_getShieldData
+## rri_pangolin_fnc_getShieldData
 
 **Description:** Calculates shield data for the given unit  
 
@@ -93,14 +93,14 @@
 ```
 
 (begin example)
-[ace_player] call mti_pangolin_fnc_getShieldData;
+[ace_player] call rri_pangolin_fnc_getShieldData;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_pangolin_fnc_hasShield
+## rri_pangolin_fnc_hasShield
 
 **Description:** Checks if given unit has equipped Pangolin compatible Shield.  
 
@@ -113,7 +113,7 @@
 ```
 
 (begin example)
-[ACE_Player] call mti_pangolin_fnc_hasShield;
+[ACE_Player] call rri_pangolin_fnc_hasShield;
 (end)
 
 ```
@@ -128,7 +128,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_pangolin_fnc_onHit
+## rri_pangolin_fnc_onHit
 
 **Description:** Handles onHit events for units.  
 
@@ -151,14 +151,14 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_pangolin_fnc_onHit;
+[...] call rri_pangolin_fnc_onHit;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_pangolin_fnc_onHitLocal
+## rri_pangolin_fnc_onHitLocal
 
 **Description:** Locally handles onHit, deals with energy reduction, regen timeout etc  
 
@@ -181,14 +181,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_pangolin_fnc_onHitLocal;
+[] call rri_pangolin_fnc_onHitLocal;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_pangolin_fnc_particleEffects
+## rri_pangolin_fnc_particleEffects
 
 **Description:** Takes care of spawning various particle effects.  
 
@@ -202,14 +202,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_pangolin_fnc_particleEffects;
+[] call rri_pangolin_fnc_particleEffects;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_pangolin_fnc_shieldPFH
+## rri_pangolin_fnc_shieldPFH
 
 **Description:** PFH that takes care of updating the given unit's shield status, regen and other things.  
 
@@ -223,14 +223,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_pangolin_fnc_shieldPFH;
+[player] call rri_pangolin_fnc_shieldPFH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_pangolin_fnc_woundHandler
+## rri_pangolin_fnc_woundHandler
 
 **Description:** Custom ACE Medical wound handler for katarn shields.  
 
@@ -243,7 +243,7 @@ No documentation available.
 ```
 
 (begin example)
-[player, _allDamagesArray, "falling"] call mti_pangolin_fnc_woundHandler;
+[player, _allDamagesArray, "falling"] call rri_pangolin_fnc_woundHandler;
 (end)
 
 ```

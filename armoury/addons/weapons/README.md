@@ -1,4 +1,4 @@
-mti_armoury_weapons
+rri_armoury_weapons
 ===================
 
 Weapons template feature.

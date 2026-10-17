@@ -1,4 +1,4 @@
-mti_armoury_common
+rri_armoury_common
 ===================
 
-Common function definitions, data and configs used by MokTech Industries - Armoury.
+Common function definitions, data and configs used by Rowdy Rodent Induestries - Armoury.

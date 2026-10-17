@@ -4,11 +4,11 @@
 Below, you can find information and examples on how to define new presets and compositions, how to turn objects into containers and some other tricks.
 
 ## Custom Presets
-Presets are defined in the class `mti_fortify_presets`. Presets can be defined either in the missionConfigFile or the configFile proper (via Addons). Custom presets should always inherit from `class Default;` in order to ensure forwards compatibility (if new features get added).
+Presets are defined in the class `rri_fortify_presets`. Presets can be defined either in the missionConfigFile or the configFile proper (via Addons). Custom presets should always inherit from `class Default;` in order to ensure forwards compatibility (if new features get added).
 
 ### Code Example
 ```cpp
-class mti_fortify_presets {
+class rri_fortify_presets {
     class Default {
         scope = 0; // controls visibility of the preset, scope > 0 makes it visible
         displayName = ""; // The name of the preset, displayed in the fortify interaction menu
@@ -34,15 +34,15 @@ class mti_fortify_presets {
 ```
 
 ## Custom Compositions
-Compositions are defined in the class `mti_fortify_compositions`. Compositions can be defined either in the missionConfigFile or the configFile proper (via Addons). Custom compositions should always inherit from `class Default;` in order to ensure forwards compatibility.
+Compositions are defined in the class `rri_fortify_compositions`. Compositions can be defined either in the missionConfigFile or the configFile proper (via Addons). Custom compositions should always inherit from `class Default;` in order to ensure forwards compatibility.
 
-In addition to the config entry, the objects that form the composition need to be defined in an extra file. This extra file contains the output of the function `mti_fortify_fnc_objectsGrabber` which grabs nearby objects and compiles them into the composition format.
+In addition to the config entry, the objects that form the composition need to be defined in an extra file. This extra file contains the output of the function `rri_fortify_fnc_objectsGrabber` which grabs nearby objects and compiles them into the composition format.
 
 ### The objectsGrabber
 The objectsGrabber compiles nearby objects into a format that can later be placed down again as a composition. It is called as follows:
 
 ```
-[_center, _radius, _compositionName] call mti_fortify_fnc_objectsGrabber
+[_center, _radius, _compositionName] call rri_fortify_fnc_objectsGrabber
 ```
 
 * `_center` is the center position around which objects are collected
@@ -54,7 +54,7 @@ After the function is successfully run, the output is copied to your clipboard a
 ### Code Example
 
 ```cpp
-class mti_fortify_compositions {
+class rri_fortify_compositions {
     class Default {
         scope = 0; // controls visibility of the composition, scope > 0 makes it visible
         displayName = ""; // the name of the composition, displayed in the fortify interaction menu
@@ -68,7 +68,7 @@ class mti_fortify_compositions {
     class My_Composition: Default {
         scope = 1;
         displayName = "My Cool Composition";
-        file = "my_composition.sqf"; // output provided by mti_fortify_fnc_objectsGrabber
+        file = "my_composition.sqf"; // output provided by rri_fortify_fnc_objectsGrabber
         cost = 100;
         createMarker = 1;
         markerType = "b_hq";
@@ -87,7 +87,7 @@ In either case, a preset **always** needs to be associated with a budget. Settin
 class CfgVehicles {
     class My_Container {
         //...
-        mti_fortify_availablePresets[] = { "My_Preset", 1000, "My_Preset_2", -1 }; // presets in format: <class name>, <total budget>
+        rri_fortify_availablePresets[] = { "My_Preset", 1000, "My_Preset_2", -1 }; // presets in format: <class name>, <total budget>
     };
 };
 ```
@@ -95,7 +95,7 @@ class CfgVehicles {
 The same can be done using the `setVariable` scripting command:
 
 ```cpp
-My_Container setVariable ["mti_fortify_availablePresets", ["My_Preset", 1000, "My_Preset_2", -1], true];
+My_Container setVariable ["rri_fortify_availablePresets", ["My_Preset", 1000, "My_Preset_2", -1], true];
 ```
 
 ### Adding Compositions to Containers
@@ -107,8 +107,8 @@ The container uses one single budget for all compositions. If that budget is set
 class CfgVehicles {
     class My_Composition_Container {
         //...
-        mti_fortify_availableCompositions[] = { "My_Composition" };
-        mti_fortify_compositionBudget = 2500;
+        rri_fortify_availableCompositions[] = { "My_Composition" };
+        rri_fortify_compositionBudget = 2500;
     };
 };
 ```
@@ -116,8 +116,8 @@ class CfgVehicles {
 The same can be done using the `setVariable` scripting command:
 
 ```cpp
-My_Composition_Container setVariable ["mti_fortify_availableCompositions", ["My_Composition"], true];
-My_Composition_Container setVariable ["mti_fortify_compositionBudget", 2500, true];
+My_Composition_Container setVariable ["rri_fortify_availableCompositions", ["My_Composition"], true];
+My_Composition_Container setVariable ["rri_fortify_compositionBudget", 2500, true];
 ```
 
 ### Making Save/Load Containers
@@ -127,9 +127,9 @@ Any object can be turned into a save/load container by setting some few config p
 class CfgVehicles {
     class My_Save_Container {
         //...
-        mti_fortify_canSave = 1; // enables saving nearby deployed objects into a composition, required
-        mti_fortify_saveMaxBudget = 2500; // controls how many objects (based on cost) the container can save, optional
-        mti_fortify_saveRange = 100; // controls how far out objects can be in order for them to get saved, optional
+        rri_fortify_canSave = 1; // enables saving nearby deployed objects into a composition, required
+        rri_fortify_saveMaxBudget = 2500; // controls how many objects (based on cost) the container can save, optional
+        rri_fortify_saveRange = 100; // controls how far out objects can be in order for them to get saved, optional
     };
 };
 ```
@@ -137,9 +137,9 @@ class CfgVehicles {
 The same using `setVariable`:
 
 ```cpp
-My_Save_Container setVariable ["mti_fortify_canSave", true, true];
-My_Save_Container setVariable ["mti_fortify_saveMaxBudget", 2500, true];
-My_Save_Container setVariable ["mti_fortify_saveRange", 100, true];
+My_Save_Container setVariable ["rri_fortify_canSave", true, true];
+My_Save_Container setVariable ["rri_fortify_saveMaxBudget", 2500, true];
+My_Save_Container setVariable ["rri_fortify_saveRange", 100, true];
 ```
 
 ## Custom Fortify Backpacks
@@ -149,10 +149,10 @@ As already indicated, access to the Fortify is unlocked by having a special type
 class CfgVehicles {
     class My_Fortify_Backpack {
         //...
-        mti_fortify_canFortify = 1; // enables player to access the fortify menu
+        rri_fortify_canFortify = 1; // enables player to access the fortify menu
 
         // optional, if you want players to be able to deploy things directly from backpack without container:
-        mti_fortify_availablePresets[] = { "My_Backpack_Preset", 250 }; // presets in format: <class name>, <total budget>
+        rri_fortify_availablePresets[] = { "My_Backpack_Preset", 250 }; // presets in format: <class name>, <total budget>
     };
 };
 ```
@@ -168,13 +168,13 @@ class CfgVehicles {
     class Man;
     class CAManBase: Man {
         class ACE_SelfActions {
-            class MTI_Fortify {
+            class rri_Fortify {
                 class My_Category {
                     displayName = "My Own Category";
                     condition = "true";
                     statement = "";
                     showDisabled = 0;
-                    insertChildren = "[_this select 0,'My_Category'] call mti_fortify_fnc_addActions"; // IMPORTANT: also replace My_Category with your own classname here!
+                    insertChildren = "[_this select 0,'My_Category'] call rri_fortify_fnc_addActions"; // IMPORTANT: also replace My_Category with your own classname here!
                 };
             };
         };
@@ -198,5 +198,5 @@ This handy macro makes defining preset objects a breeze:
 Using `setVariable`, a player can be given access to the Fortify system without having a compatible backpack equipped:
 
 ```cpp
-player setVariable ["mti_fortify_canFortify", true];
+player setVariable ["rri_fortify_canFortify", true];
 ```

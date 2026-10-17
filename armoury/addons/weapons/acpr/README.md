@@ -1,4 +1,4 @@
-mti_armoury_weapons_acpr
+rri_armoury_weapons_acpr
 ===================
 
 Blank template weapon subaddon.

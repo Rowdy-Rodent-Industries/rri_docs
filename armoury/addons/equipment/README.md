@@ -1,4 +1,4 @@
-mti_equipment
+rri_equipment
 ===================
 
 Blank template feature.

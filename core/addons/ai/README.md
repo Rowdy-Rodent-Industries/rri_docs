@@ -1,4 +1,4 @@
-mti_ai
+rri_ai
 ===================
 
 Several AI-related systems and functions.
@@ -17,10 +17,10 @@ The "Objective Name" setting is optional and creates group names based on the ob
 
 ## Adding Your Own Faction
 
-Custom factions can be added by creating a new class in the config parent `MTI_PopulateAO_Factions`. Populate AO **heavily** depends on CfgGroups, so you may need to create a few additional entries there before your faction is ready to be used with this system.
+Custom factions can be added by creating a new class in the config parent `rri_PopulateAO_Factions`. Populate AO **heavily** depends on CfgGroups, so you may need to create a few additional entries there before your faction is ready to be used with this system.
 
 ```cpp
-class MTI_PopulateAO_Factions {
+class rri_PopulateAO_Factions {
     class Default {
         scope = 0; // controls visibility of your faction in the Populate AO dialog
         displayName = ""; // this name is used to list your faction in the Populate AO dialog

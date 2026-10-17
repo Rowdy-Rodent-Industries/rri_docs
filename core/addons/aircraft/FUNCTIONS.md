@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_aircraft_fnc_activateSquadShield
+## rri_aircraft_fnc_activateSquadShield
 
 **Description:** Handles activation of the squad shield.  
 
@@ -14,7 +14,7 @@
 ```
 
 (begin example)
-[vehicle player, player] call mti_aircraft_fnc_activateSquadShield;
+[vehicle player, player] call rri_aircraft_fnc_activateSquadShield;
 (end)
 
 ```
@@ -25,7 +25,7 @@
 
 No documentation available.
 
-## mti_aircraft_fnc_canSelectSkin
+## rri_aircraft_fnc_canSelectSkin
 
 **Description:** Checks whether player can select skin of current aircraft.  
 
@@ -40,14 +40,14 @@ No documentation available.
 ```
 
 (begin example)
-[LAAT2, player] call mti_aircraft_fnc_canSelectSkin;
+[LAAT2, player] call rri_aircraft_fnc_canSelectSkin;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_canService
+## rri_aircraft_fnc_canService
 
 **Description:** Checks whether given aircraft can be serviced by player.  
 
@@ -62,14 +62,14 @@ No documentation available.
 ```
 
 (begin example)
-[LAAT2, player] call mti_aircraft_fnc_canService;
+[LAAT2, player] call rri_aircraft_fnc_canService;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_canToggleCloaking
+## rri_aircraft_fnc_canToggleCloaking
 
 **Description:** Checks whether player can toggle cloaking of current aircraft.  
 
@@ -84,14 +84,14 @@ No documentation available.
 ```
 
 (begin example)
-[LAAT2, player, true] call mti_aircraft_fnc_canToggleCloaking;
+[LAAT2, player, true] call rri_aircraft_fnc_canToggleCloaking;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_cm_canChangeColour
+## rri_aircraft_fnc_cm_canChangeColour
 
 **Description:** Checks, whether player can change CM colour on current aircraft.  
 
@@ -105,14 +105,14 @@ No documentation available.
 ```
 
 (begin example)
-[vehicle player, player] call mti_aircraft_fnc_cm_canChangeColour;
+[vehicle player, player] call rri_aircraft_fnc_cm_canChangeColour;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_cm_changeColour
+## rri_aircraft_fnc_cm_changeColour
 
 **Description:** Opens the selection for the desired CM colour.  
 
@@ -126,14 +126,14 @@ No documentation available.
 ```
 
 (begin example)
-[vehicle player, player] call mti_aircraft_fnc_cm_changeColour;
+[vehicle player, player] call rri_aircraft_fnc_cm_changeColour;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_cpas_attach
+## rri_aircraft_fnc_cpas_attach
 
 **Description:** Attaches the passed unit to the given aircraft's CPAS.  
 
@@ -148,14 +148,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_aircraft_fnc_cpas_attach;
+[] call rri_aircraft_fnc_cpas_attach;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_cpas_canAttach
+## rri_aircraft_fnc_cpas_canAttach
 
 **Description:** Checks whether unit can attach self to given pylon on passed aircraft  
 
@@ -170,14 +170,14 @@ No documentation available.
 ```
 
 (begin example)
-[player,cursorTarget,1] call mti_aircraft_fnc_cpas_canAttach;
+[player,cursorTarget,1] call rri_aircraft_fnc_cpas_canAttach;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_cpas_detach
+## rri_aircraft_fnc_cpas_detach
 
 **Description:** Detaches the passed unit from the aircraft's CPAS.  
 
@@ -190,14 +190,14 @@ No documentation available.
 ```
 
 (begin example)
-[player] call mti_aircraft_fnc_cpas_detach;
+[player] call rri_aircraft_fnc_cpas_detach;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_cpas_handleFiredLocal
+## rri_aircraft_fnc_cpas_handleFiredLocal
 
 **Description:** Eventhandler to re-attach the rig to the projectile after it was fired  
 
@@ -214,14 +214,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_aircraft_fnc_cpas_handleFiredLocal;
+[] call rri_aircraft_fnc_cpas_handleFiredLocal;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_cpas_isEquipped
+## rri_aircraft_fnc_cpas_isEquipped
 
 **Description:** Checks whether given aircraft is equipped with a CPAS, returns all pylons that are equipped with CPAS.  
 
@@ -235,14 +235,14 @@ No documentation available.
 ```
 
 (begin example)
-[vehicle player] call mti_aircraft_fnc_cpas_isEquipped;
+[vehicle player] call rri_aircraft_fnc_cpas_isEquipped;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_cpas_onFired
+## rri_aircraft_fnc_cpas_onFired
 
 **Description:** Handles re-attaching the CPAS rig to the projectile after dropping.  
 
@@ -261,7 +261,7 @@ No documentation available.
 ```
 
 (begin example)
-[...] call mti_aircraft_fnc_cpas_onFired;
+[...] call rri_aircraft_fnc_cpas_onFired;
 (end)
 
 ```
@@ -280,7 +280,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_aircraft_fnc_laatc_load
+## rri_aircraft_fnc_laatc_load
 
 **Description:** Loads nearby vehicles/objects into LAAT/c  
 
@@ -293,14 +293,14 @@ No documentation available.
 ```
 
 (begin example)
-[cursorTarget] call mti_aircraft_fnc_laatc_load;
+[cursorTarget] call rri_aircraft_fnc_laatc_load;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_laatc_unload
+## rri_aircraft_fnc_laatc_unload
 
 **Description:** Unloads vehicles from the LAAT/c.  
 
@@ -313,14 +313,14 @@ No documentation available.
 ```
 
 (begin example)
-[cursorTarget] call mti_aircraft_fnc_laatc_unload;
+[cursorTarget] call rri_aircraft_fnc_laatc_unload;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_onFired_SmokeLauncher
+## rri_aircraft_fnc_onFired_SmokeLauncher
 
 **Description:** Handles deploying a smoke screen after the smoke launcher CM has been activated. Based on BIS_fnc_effectFiredSmokeLauncher.  
 
@@ -334,7 +334,7 @@ No documentation available.
 ```
 
 (begin example)
-[vehicle player, player] call mti_aircraft_fnc_onFired_SmokeLauncher;
+[vehicle player, player] call rri_aircraft_fnc_onFired_SmokeLauncher;
 (end)
 
 ```
@@ -345,7 +345,7 @@ No documentation available.
 
 No documentation available.
 
-## mti_aircraft_fnc_selectSkin
+## rri_aircraft_fnc_selectSkin
 
 **Description:** Opens skin selector for given aircraft.  
 
@@ -360,14 +360,14 @@ No documentation available.
 ```
 
 (begin example)
-[LAAT2, player] call mti_aircraft_fnc_selectSkin;
+[LAAT2, player] call rri_aircraft_fnc_selectSkin;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_service
+## rri_aircraft_fnc_service
 
 **Description:** Services the given aircraft.  
 
@@ -382,14 +382,14 @@ No documentation available.
 ```
 
 (begin example)
-[LAAT2, player] call mti_aircraft_fnc_service;
+[LAAT2, player] call rri_aircraft_fnc_service;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_setServicingKart
+## rri_aircraft_fnc_setServicingKart
 
 **Description:** Sets the given vehicle up as a servicing kart that can be used to repair, refuel and rearm aircraft.  
 
@@ -403,14 +403,14 @@ No documentation available.
 ```
 
 (begin example)
-[] call mti_aircraft_fnc_setServicingKart;
+[] call rri_aircraft_fnc_setServicingKart;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_toggleCloaking
+## rri_aircraft_fnc_toggleCloaking
 
 **Description:** Toggles cloaking device of given aircraft on/off.  
 
@@ -425,7 +425,7 @@ No documentation available.
 ```
 
 (begin example)
-[LAAT2, player, true] call mti_aircraft_fnc_toggleCloaking;
+[LAAT2, player, true] call rri_aircraft_fnc_toggleCloaking;
 (end)
 
 ```

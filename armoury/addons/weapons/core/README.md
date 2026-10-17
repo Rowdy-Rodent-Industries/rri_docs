@@ -1,4 +1,4 @@
-mti_armoury_weapons_core
+rri_armoury_weapons_core
 ===================
 
 Weapons (core) template feature.

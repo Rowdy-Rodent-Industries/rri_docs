@@ -1,4 +1,4 @@
-mti_fortify
+rri_fortify
 ============
 
 Allows quick placement of fortifications.

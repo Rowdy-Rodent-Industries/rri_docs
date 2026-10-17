@@ -1,12 +1,12 @@
 # Function Reference
 
-## mti_common_fnc_initArsenal
+## rri_common_fnc_initArsenal
 
-**Description:** Initializes a container as an MokTech Industries Arsenal.  
+**Description:** Initializes a container as an Rowdy Rodent Induestries Industries Arsenal.  
 
 **Arguments:**
 - `_object` - Player to init
-- `_type` - Arsenal Type, any valid class in mti_arsenal_whitelists
+- `_type` - Arsenal Type, any valid class in rri_arsenal_whitelists
 
 **Return Value:** None  
 
@@ -14,14 +14,14 @@
 ```
 
 (begin example)
-[this, "Command"] call mti_common_fnc_initArsenal;
+[this, "Command"] call rri_common_fnc_initArsenal;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_common_fnc_initDefaultLoadouts
+## rri_common_fnc_initDefaultLoadouts
 
 **Description:** Adds default loadouts to ACE arsenals.  
 
@@ -34,14 +34,14 @@
 ```
 
 (begin example)
-call mti_common_fnc_initDefaultLoadouts;
+call rri_common_fnc_initDefaultLoadouts;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_arsenal_fnc_insertArmouryActions
+## rri_arsenal_fnc_insertArmouryActions
 
 **Description:** Returns child actions for the armoury system.  
 
@@ -55,14 +55,14 @@ call mti_common_fnc_initDefaultLoadouts;
 ```
 
 (begin example)
-[] call mti_arsenal_fnc_insertArmouryActions;
+[] call rri_arsenal_fnc_insertArmouryActions;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_arsenal_fnc_parseLists
+## rri_arsenal_fnc_parseLists
 
 **Description:** PreInit function that parses the config and compiles the arsenal whitelists.  
 
@@ -75,14 +75,14 @@ call mti_common_fnc_initDefaultLoadouts;
 ```
 
 (begin example)
-[] call mti_arsenal_fnc_parseLists;
+[] call rri_arsenal_fnc_parseLists;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_common_fnc_postInit
+## rri_common_fnc_postInit
 
 **Description:** Post-init stuff to make preset arsenals.  
 
@@ -95,14 +95,14 @@ call mti_common_fnc_initDefaultLoadouts;
 ```
 
 (begin example)
-[cursorObject] call mti_common_fnc_postInit;
+[cursorObject] call rri_common_fnc_postInit;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_arsenal_fnc_setArmoury
+## rri_arsenal_fnc_setArmoury
 
 **Description:** Sets up the given object as a  
 
@@ -115,7 +115,7 @@ call mti_common_fnc_initDefaultLoadouts;
 ```
 
 (begin example)
-[this] call mti_arsenal_fnc_setArmoury;
+[this] call rri_arsenal_fnc_setArmoury;
 (end)
 
 ```

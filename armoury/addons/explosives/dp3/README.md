@@ -1,4 +1,4 @@
-mti_armoury_explosives_dp3
+rri_armoury_explosives_dp3
 ===================
 
 Blank template vehicle subaddon.

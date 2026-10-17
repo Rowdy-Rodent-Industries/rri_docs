@@ -1,8 +1,8 @@
 # Function Reference
 
-## mti_logistics_fnc__itemsFromArsenal
+## rri_logistics_fnc__itemsFromArsenal
 
-**Description:** Compiles an updated list of items based on the arsenal whitelists, to be used for cfg/items.hpp Requires the ConfigDumpFileIO extension to be loaded manually, it is not included in the mod release, see mti_common_fnc_dumpConfig for details.  
+**Description:** Compiles an updated list of items based on the arsenal whitelists, to be used for cfg/items.hpp Requires the ConfigDumpFileIO extension to be loaded manually, it is not included in the mod release, see rri_common_fnc_dumpConfig for details.  
 
 **Arguments:**
 - None
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc__itemsFromArsenal;
+[] call rri_logistics_fnc__itemsFromArsenal;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_dialogPFH
+## rri_logistics_fnc_dialogPFH
 
 **Description:** PFH that runs some recurring checks on the logibox dialog.  
 
@@ -34,14 +34,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_dialogPFH;
+[] call rri_logistics_fnc_dialogPFH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_aircraft_onLoad
+## rri_logistics_fnc_aircraft_onLoad
 
 **Description:** Handles setting up the display, populating it with data and getting everything ready when the aircraft logibox menu is opened.  
 
@@ -54,14 +54,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_aircraft_onLoad;
+[] call rri_logistics_fnc_aircraft_onLoad;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_aircraft_onUnload
+## rri_logistics_fnc_aircraft_onUnload
 
 **Description:** Handles resetting variables and systems when the aircraft logibox menu gets closed.  
 
@@ -75,14 +75,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_aircraft_onUnload;
+[] call rri_logistics_fnc_aircraft_onUnload;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_aircraft_updateDialog
+## rri_logistics_fnc_aircraft_updateDialog
 
 **Description:** Updates the LogiBox dialog based on currently selected vehicle.  
 
@@ -96,14 +96,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_aircraft_updateDialog;
+[] call rri_logistics_fnc_aircraft_updateDialog;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_canOpenDialog
+## rri_logistics_fnc_canOpenDialog
 
 **Description:** Checks whether player can currently open the logibox menu.  
 
@@ -116,14 +116,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_canOpenDialog;
+[] call rri_logistics_fnc_canOpenDialog;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_clearArea
+## rri_logistics_fnc_clearArea
 
 **Description:** Clears the output area of the logibox.  
 
@@ -136,14 +136,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_clearArea;
+[] call rri_logistics_fnc_clearArea;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_getConfigProperty
+## rri_logistics_fnc_getConfigProperty
 
 **Description:** Helper function to properly retrieve properties from the logistics config  
 
@@ -158,14 +158,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_getConfigProperty;
+[] call rri_logistics_fnc_getConfigProperty;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_getDeployed
+## rri_logistics_fnc_getDeployed
 
 **Description:** Gets the number of deployed vehicles for a given logibox and vehicle.  
 
@@ -179,14 +179,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_getDeployed;
+[] call rri_logistics_fnc_getDeployed;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_getLimit
+## rri_logistics_fnc_getLimit
 
 **Description:** Returns the applicable spawning limit (if any) for the corresponding vehicle class.  
 
@@ -201,14 +201,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_getLimit;
+[] call rri_logistics_fnc_getLimit;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_handleSlingload
+## rri_logistics_fnc_handleSlingload
 
 **Description:** Handles the logibox getting picked up by a LAAT/c (hiding/unhiding the helpers)  
 
@@ -224,14 +224,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_handleSlingload;
+[] call rri_logistics_fnc_handleSlingload;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_limitHashDialog
+## rri_logistics_fnc_limitHashDialog
 
 **Description:** Opens a dialog that allows the user to set limits for vehicle deployment.  
 
@@ -244,14 +244,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_limitHashDialog;
+[] call rri_logistics_fnc_limitHashDialog;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_logibox_checkArea
+## rri_logistics_fnc_logibox_checkArea
 
 **Description:** Checks the helper area next to the logibox, if anything is blocking the output.  
 
@@ -266,14 +266,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_logibox_checkArea;
+[] call rri_logistics_fnc_logibox_checkArea;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_logibox_init
+## rri_logistics_fnc_logibox_init
 
 **Description:** Handles local initilization for the logibox.  
 
@@ -286,14 +286,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_logibox_init;
+[] call rri_logistics_fnc_logibox_init;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_openDialog
+## rri_logistics_fnc_openDialog
 
 **Description:** Wrapper function to open desired logibox dialog.  
 
@@ -306,14 +306,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_openDialog;
+[] call rri_logistics_fnc_openDialog;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_spawnVehicle
+## rri_logistics_fnc_spawnVehicle
 
 **Description:** Server-side spawning the vehicle and setting various timers on the logibox.  
 
@@ -332,14 +332,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_spawnVehicle;
+[] call rri_logistics_fnc_spawnVehicle;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_spawnVehicleComplete
+## rri_logistics_fnc_spawnVehicleComplete
 
 **Description:** Takes care of the actual spawning of the vehicle once all the fancy visual stuff is done.  
 
@@ -358,14 +358,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_spawnVehicleComplete;
+[] call rri_logistics_fnc_spawnVehicleComplete;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_updateScreenDisplay
+## rri_logistics_fnc_updateScreenDisplay
 
 **Description:** Updates the screen UI of the given logibox  
 
@@ -379,14 +379,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_updateScreenDisplay;
+[] call rri_logistics_fnc_updateScreenDisplay;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_updateVehLb
+## rri_logistics_fnc_updateVehLb
 
 **Description:** Updates the vehicle listbox for the logibox menu.  
 
@@ -400,14 +400,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_updateVehLb;
+[] call rri_logistics_fnc_updateVehLb;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_vehicle_dialogPFH
+## rri_logistics_fnc_vehicle_dialogPFH
 
 **Description:** PFH that runs some recurring checks on the logibox dialog.  
 
@@ -421,14 +421,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_dialogPFH;
+[] call rri_logistics_fnc_dialogPFH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_vehicle_onLoad
+## rri_logistics_fnc_vehicle_onLoad
 
 **Description:** Handles setting up the display, populating it with data and getting everything ready when the vehicle logibox menu is opened.  
 
@@ -441,14 +441,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_vehicle_onLoad;
+[] call rri_logistics_fnc_vehicle_onLoad;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_vehicle_onUnload
+## rri_logistics_fnc_vehicle_onUnload
 
 **Description:** Handles resetting variables and systems when the vehicle logibox menu gets closed.  
 
@@ -462,14 +462,14 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_vehicle_onUnload;
+[] call rri_logistics_fnc_vehicle_onUnload;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_logistics_fnc_vehicle_updateDialog
+## rri_logistics_fnc_vehicle_updateDialog
 
 **Description:** Updates the LogiBox dialog based on currently selected vehicle.  
 
@@ -483,7 +483,7 @@
 ```
 
 (begin example)
-[] call mti_logistics_fnc_vehicle_updateDialog;
+[] call rri_logistics_fnc_vehicle_updateDialog;
 (end)
 
 ```

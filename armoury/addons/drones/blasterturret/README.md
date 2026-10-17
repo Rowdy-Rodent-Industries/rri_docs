@@ -1,4 +1,4 @@
-mti_armoury_drones_blasterturret
+rri_armoury_drones_blasterturret
 ===================
 
 Drones (blasterturret) template feature.

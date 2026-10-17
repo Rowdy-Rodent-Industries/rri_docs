@@ -1,4 +1,4 @@
-mti_mm9
+rri_mm9
 ===================
 
 MM-9 template feature.

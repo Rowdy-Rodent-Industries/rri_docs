@@ -1,6 +1,6 @@
 # Config Properties
 
-## mti_doors_isLockpick
+## rri_doors_isLockpick
 
 - **Value:** Number (Bool)
 - **Config Type:** `CfgWeapons`

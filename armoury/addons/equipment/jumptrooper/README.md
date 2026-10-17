@@ -1,2 +1,2 @@
-mti_equipment_jumptroopers
+rri_equipment_jumptroopers
 ===================

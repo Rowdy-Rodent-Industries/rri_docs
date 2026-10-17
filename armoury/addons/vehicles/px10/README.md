@@ -1,4 +1,4 @@
-mti_armoury_vehicles_px10
+rri_armoury_vehicles_px10
 ===================
 
 Blank template vehicle subaddon.

@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_mm9_fnc_findTargetMM9
+## rri_mm9_fnc_findTargetMM9
 
 **Description:** Attempts to find a suitable target for the MM9.  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[] call mti_mm9_fnc_findTargetMM9;
+[] call rri_mm9_fnc_findTargetMM9;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_mm9_fnc_fireMM9
+## rri_mm9_fnc_fireMM9
 
 **Description:** Handles firing the MM9 Rocket System.  
 
@@ -34,13 +34,13 @@
 ```
 
 (begin example)
-[player, cursorTarget] call mti_mm9_fnc_fireMM9;
+[player, cursorTarget] call rri_mm9_fnc_fireMM9;
 (end)
 
 Mokka
 ```
 
-## mti_mm9_fnc_hasMM9
+## rri_mm9_fnc_hasMM9
 
 **Description:** Checks whether given unit has access to the MM9 Rocket System.  
 
@@ -53,13 +53,13 @@ Mokka
 ```
 
 (begin example)
-[player] call mti_mm9_fnc_hasMM9;
+[player] call rri_mm9_fnc_hasMM9;
 (end)
 
 Mokka
 ```
 
-## mti_mm9_fnc_hasMM9Rocket
+## rri_mm9_fnc_hasMM9Rocket
 
 **Description:** Checks whether given unit has a suitable MM9 Rocket in their inventory.  
 
@@ -73,14 +73,14 @@ Mokka
 ```
 
 (begin example)
-[player] call mti_mm9_fnc_hasMM9Rocket;
+[player] call rri_mm9_fnc_hasMM9Rocket;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_mm9_fnc_insertReloadActions
+## rri_mm9_fnc_insertReloadActions
 
 **Description:** Insert reload actions for each type of  
 
@@ -93,14 +93,14 @@ Mokka
 ```
 
 (begin example)
-[ace_player] call mti_mm9_fnc_insertReloadActions;
+[ace_player] call rri_mm9_fnc_insertReloadActions;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_mm9_fnc_prepareMM9
+## rri_mm9_fnc_prepareMM9
 
 **Description:** Prepares the MM9 Rocket System, initiating the targetting sequence and adding action to "Fire".  
 
@@ -113,14 +113,14 @@ Mokka
 ```
 
 (begin example)
-[player] call mti_mm9_fnc_prepareMM9;
+[player] call rri_mm9_fnc_prepareMM9;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_mm9_fnc_reloadMM9
+## rri_mm9_fnc_reloadMM9
 
 **Description:** Reload MM9 rocket system.  
 
@@ -134,14 +134,14 @@ Mokka
 ```
 
 (begin example)
-[player] call mti_mm9_fnc_reloadMM9;
+[player] call rri_mm9_fnc_reloadMM9;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_mm9_fnc_unloadMM9
+## rri_mm9_fnc_unloadMM9
 
 **Description:** Unloads the MM-9 and adds the used reload item back to the unit's inventory.  
 
@@ -154,7 +154,7 @@ Mokka
 ```
 
 (begin example)
-[] call mti_mm9_fnc_unloadMM9;
+[] call rri_mm9_fnc_unloadMM9;
 (end)
 
 ```

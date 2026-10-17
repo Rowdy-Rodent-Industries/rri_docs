@@ -1,6 +1,6 @@
-# mti_screenshotMode
+# rri_screenshotMode
 
-Adds a keybind to hide all UI elements for prettier screenshots. This does not have a default keybind, so if you want to use it, check *Controls* >> *Configure Addons* >> *MokTech Industries - Core*.
+Adds a keybind to hide all UI elements for prettier screenshots. This does not have a default keybind, so if you want to use it, check *Controls* >> *Configure Addons* >> *Rowdy Rodent Induestries Industries - Core*.
 
 ## Mod support
 

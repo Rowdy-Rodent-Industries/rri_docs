@@ -1,4 +1,4 @@
-mti_TPW
+rri_TPW
 ===================
 
 Adds BC Two Primaries button to ACE Arsenal

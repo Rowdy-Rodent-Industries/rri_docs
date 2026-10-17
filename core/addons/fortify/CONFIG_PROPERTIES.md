@@ -1,42 +1,42 @@
 # Config Properties
 
-## mti_fortify_availableCompositions
+## rri_fortify_availableCompositions
 
 - **Value:** Array
 - **Config Type:** `CfgVehicles`
-- **Description:** Array of compositions defined in `mti_fortify_compositions` that `this` container has access to.
+- **Description:** Array of compositions defined in `rri_fortify_compositions` that `this` container has access to.
 
-## mti_fortify_availablePresets
+## rri_fortify_availablePresets
 
 - **Value:** Array
 - **Config Type:** `CfgVehicles`
-- **Description:** Array of presets defined in `mti_fortify_presets` that `this` container has access to.
+- **Description:** Array of presets defined in `rri_fortify_presets` that `this` container has access to.
 
-## mti_fortify_canFortify
+## rri_fortify_canFortify
 
 - **Value:** Number (Bool)
 - **Config Type:** `CfgVehicles`
 - **Description:** Enables `this` container to use the fortify system, used on backpacks to make the system available to unit.
 
-## mti_fortify_canSave
+## rri_fortify_canSave
 
 - **Value:** Number (Bool)
 - **Config Type:** `CfgVehicles`
 - **Description:** Containers with this property enabled can save nearby fortifications into a composition.
 
-## mti_fortify_compositionBudget
+## rri_fortify_compositionBudget
 
 - **Value:** Number
 - **Config Type:** `CfgVehicles`
 - **Description:** Budget for deploying compositions from `this` container.
 
-## mti_fortify_saveMaxBudget
+## rri_fortify_saveMaxBudget
 
 - **Value:** Number
 - **Config Type:** `CfgVehicles`
 - **Description:** Max. budget available to `this` save container.
 
-## mti_fortify_saveRange
+## rri_fortify_saveRange
 
 - **Value:** Number
 - **Config Type:** `CfgVehicles`

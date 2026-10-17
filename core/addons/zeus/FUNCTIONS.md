@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_zeus_fnc_activateDispenser
+## rri_zeus_fnc_activateDispenser
 
 **Description:** Handles the activation of droid dispensers  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[...] call mti_zeus_fnc_activateDispenser;
+[...] call rri_zeus_fnc_activateDispenser;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_zeus_fnc_deactivateDispenser
+## rri_zeus_fnc_deactivateDispenser
 
 **Description:** Handles the deactivation of droid dispensers  
 
@@ -33,14 +33,14 @@
 ```
 
 (begin example)
-[...] call mti_zeus_fnc_deactivateDispenser;
+[...] call rri_zeus_fnc_deactivateDispenser;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_zeus_fnc_editDispenser
+## rri_zeus_fnc_editDispenser
 
 **Description:** Handles changing the droid dispenser's settings using ZEN Dialog.  
 
@@ -53,14 +53,14 @@
 ```
 
 (begin example)
-[_hoveredEntity] call mti_zeus_fnc_editDispenser;
+[_hoveredEntity] call rri_zeus_fnc_editDispenser;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_zeus_fnc_setCaptive
+## rri_zeus_fnc_setCaptive
 
 **Description:** Sets the selected units as captive with the given restraint type  
 
@@ -74,14 +74,14 @@
 ```
 
 (begin example)
-[[player],"MTI_CableTie_Medium"] call mti_zeus_fnc_setCaptive;
+[[player],"rri_CableTie_Medium"] call rri_zeus_fnc_setCaptive;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_zeus_fnc_ui_addFortifyComposition
+## rri_zeus_fnc_ui_addFortifyComposition
 
 **Description:** UI to add a fortify composition to an object.  
 
@@ -94,14 +94,14 @@
 ```
 
 (begin example)
-[...] call mti_zeus_fnc_ui_addFortifyComposition;
+[...] call rri_zeus_fnc_ui_addFortifyComposition;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_zeus_fnc_ui_addFortifyPreset
+## rri_zeus_fnc_ui_addFortifyPreset
 
 **Description:** UI to add a fortify preset to an object.  
 
@@ -114,14 +114,14 @@
 ```
 
 (begin example)
-[...] call mti_zeus_fnc_ui_addFortifyPreset;
+[...] call rri_zeus_fnc_ui_addFortifyPreset;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_zeus_fnc_ui_emergencyBeacon
+## rri_zeus_fnc_ui_emergencyBeacon
 
 **Description:** Wrapper to trigger an emergency beacon.  
 
@@ -135,14 +135,14 @@
 ```
 
 (begin example)
-[...] call mti_zeus_fnc_ui_emergencyBeacon;
+[...] call rri_zeus_fnc_ui_emergencyBeacon;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_zeus_fnc_ui_registerTeleporter
+## rri_zeus_fnc_ui_registerTeleporter
 
 **Description:** Wrapper to register a teleporter.  
 
@@ -155,7 +155,7 @@
 ```
 
 (begin example)
-[...] call mti_zeus_fnc_ui_registerTeleporter;
+[...] call rri_zeus_fnc_ui_registerTeleporter;
 (end)
 
 ```

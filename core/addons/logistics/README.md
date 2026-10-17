@@ -1,4 +1,4 @@
-mti_logistics
+rri_logistics
 ===================
 
 Logistics template feature.

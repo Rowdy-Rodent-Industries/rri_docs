@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_armoury_vehicles_mutt_fnc_adjustPlow
+## rri_armoury_vehicles_mutt_fnc_adjustPlow
 
 **Description:** Shows dialog to adjust the shovels of the plow.  
 
@@ -14,14 +14,14 @@
 ```
 
 (begin example)
-[...] call mti_armoury_vehicles_mutt_fnc_adjustPlow;
+[...] call rri_armoury_vehicles_mutt_fnc_adjustPlow;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_buildTrenchPFH
+## rri_armoury_vehicles_mutt_fnc_buildTrenchPFH
 
 **Description:** PFH to handle trench building with the plow  
 
@@ -34,14 +34,14 @@
 ```
 
 (begin example)
-[...] call mti_armoury_vehicles_mutt_fnc_buildTrenchPFH;
+[...] call rri_armoury_vehicles_mutt_fnc_buildTrenchPFH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_canSelectSkin
+## rri_aircraft_fnc_canSelectSkin
 
 **Description:** Checks whether player can select skin of current aircraft.  
 
@@ -56,14 +56,14 @@
 ```
 
 (begin example)
-[LAAT2, player] call mti_aircraft_fnc_canSelectSkin;
+[LAAT2, player] call rri_aircraft_fnc_canSelectSkin;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_changeTrenchType
+## rri_armoury_vehicles_mutt_fnc_changeTrenchType
 
 **Description:** Shows a select menu to change the type of trench to dig  
 
@@ -76,14 +76,14 @@
 ```
 
 (begin example)
-[...] call mti_armoury_vehicles_mutt_fnc_changeTrenchType;
+[...] call rri_armoury_vehicles_mutt_fnc_changeTrenchType;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_deminePFH
+## rri_armoury_vehicles_mutt_fnc_deminePFH
 
 **Description:** Detonates nearby mines while the plow of the MUTT-L is lowered  
 
@@ -96,14 +96,14 @@
 ```
 
 (begin example)
-[...] call mti_armoury_vehicles_mutt_fnc_deminePFH;
+[...] call rri_armoury_vehicles_mutt_fnc_deminePFH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_getCommander
+## rri_armoury_vehicles_mutt_fnc_getCommander
 
 **Description:** Helper function to return the MUTT's commander since the commander turret is implemented as a cargo turret.  
 
@@ -116,14 +116,14 @@
 ```
 
 (begin example)
-[vehicle player] call mti_armoury_vehicles_mutt_fnc_getCommander;
+[vehicle player] call rri_armoury_vehicles_mutt_fnc_getCommander;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_handleEpeContactStart
+## rri_armoury_vehicles_mutt_fnc_handleEpeContactStart
 
 **Description:** Handle plow physx collision events.  
 
@@ -142,14 +142,14 @@
 ```
 
 (begin example)
-[...] call mti_armoury_vehicles_mutt_fnc_handleEpeContactStart;
+[...] call rri_armoury_vehicles_mutt_fnc_handleEpeContactStart;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_handleExplosion
+## rri_armoury_vehicles_mutt_fnc_handleExplosion
 
 **Description:** Handles explosion events while the plow is down.  
 
@@ -164,14 +164,14 @@
 ```
 
 (begin example)
-[...] call mti_armoury_vehicles_mutt_fnc_handleExplosion;
+[...] call rri_armoury_vehicles_mutt_fnc_handleExplosion;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_handleScrollWheel
+## rri_armoury_vehicles_mutt_fnc_handleScrollWheel
 
 **Description:** Handles scroll wheel for plow adjustments  
 
@@ -184,14 +184,14 @@
 ```
 
 (begin example)
-[...] call mti_armoury_vehicles_mutt_fnc_handleScrollWheel;
+[...] call rri_armoury_vehicles_mutt_fnc_handleScrollWheel;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_initVehicle
+## rri_armoury_vehicles_mutt_fnc_initVehicle
 
 **Description:** Takes care of initialising some values and scripted functionality on the MUTT.  
 
@@ -204,14 +204,14 @@
 ```
 
 (begin example)
-[] call mti_armoury_vehicles_mutt_fnc_initVehicle;
+[] call rri_armoury_vehicles_mutt_fnc_initVehicle;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_isCrew
+## rri_armoury_vehicles_mutt_fnc_isCrew
 
 **Description:** Checks whether given unit is a crew member of the MUTT  
 
@@ -225,14 +225,14 @@
 ```
 
 (begin example)
-[...] call mti_armoury_vehicles_mutt_fnc_isCrew;
+[...] call rri_armoury_vehicles_mutt_fnc_isCrew;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_mapOnDrawEH
+## rri_armoury_vehicles_mutt_fnc_mapOnDrawEH
 
 **Description:** Handles the map during onDraw events.  
 
@@ -245,14 +245,14 @@
 ```
 
 (begin example)
-[] call mti_armoury_vehicles_mutt_fnc_mapOnDrawEH;
+[] call rri_armoury_vehicles_mutt_fnc_mapOnDrawEH;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_rotatePlowVertical
+## rri_armoury_vehicles_mutt_fnc_rotatePlowVertical
 
 **Description:** Handles setting plow vertical rotation  
 
@@ -266,14 +266,14 @@
 ```
 
 (begin example)
-[...] call mti_armoury_vehicles_mutt_fnc_rotatePlowVertical;
+[...] call rri_armoury_vehicles_mutt_fnc_rotatePlowVertical;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_aircraft_fnc_selectSkin
+## rri_aircraft_fnc_selectSkin
 
 **Description:** Opens skin selector for given aircraft.  
 
@@ -288,14 +288,14 @@
 ```
 
 (begin example)
-[LAAT2, player] call mti_aircraft_fnc_selectSkin;
+[LAAT2, player] call rri_aircraft_fnc_selectSkin;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_trenchModFunc
+## rri_armoury_vehicles_mutt_fnc_trenchModFunc
 
 **Description:** Modifier func to include currently selected trench type in action name  
 
@@ -311,14 +311,14 @@
 ```
 
 (begin example)
-[] call mti_armoury_vehicles_mutt_fnc_trenchModFunc;
+[] call rri_armoury_vehicles_mutt_fnc_trenchModFunc;
 (end)
 
 ```
 
 **Author:** Mokka 
 
-## mti_armoury_vehicles_mutt_fnc_updateInfoDisplay
+## rri_armoury_vehicles_mutt_fnc_updateInfoDisplay
 
 **Description:** Updates the info display of the MUTT  
 
@@ -332,7 +332,7 @@
 ```
 
 (begin example)
-[] call mti_armoury_vehicles_mutt_fnc_updateInfoDisplay;
+[] call rri_armoury_vehicles_mutt_fnc_updateInfoDisplay;
 (end)
 
 ```

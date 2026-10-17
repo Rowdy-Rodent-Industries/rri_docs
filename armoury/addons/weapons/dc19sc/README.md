@@ -1,4 +1,4 @@
-mti_armoury_weapons_dc19sc
+rri_armoury_weapons_dc19sc
 ===================
 
 Blank template weapon subaddon.

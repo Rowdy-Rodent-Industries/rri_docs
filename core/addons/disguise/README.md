@@ -1,4 +1,4 @@
-mti_disguise
+rri_disguise
 ===================
 
 Disguise feature.

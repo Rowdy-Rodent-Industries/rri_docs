@@ -1,11 +1,11 @@
-mti_medical
+rri_medical
 ===================
 
-Additions to ACE Medical provided by MokTech Industries.
+Additions to ACE Medical provided by Rowdy Rodent Induestries Industries.
 
 ## Introduction
 
-MokTech Core introduces some additional features to the ACE Medical system. The bulk of these changes come in the form of new drugs that can be used by Field Medics to treat medical emergencies in new and interesting ways.
+Rowdy Rodent Induestries Core introduces some additional features to the ACE Medical system. The bulk of these changes come in the form of new drugs that can be used by Field Medics to treat medical emergencies in new and interesting ways.
 
 ## Additional Bandages
 
@@ -45,7 +45,7 @@ A small pressurised container of bacta, this is used to treat large quantities o
 
 ## Additional Medication
 
-The main feature of MokTech Core's medical expansion are the various drugs that have been added. Some of them have a use in field emergencies, while others provide more... esoteric results.
+The main feature of Rowdy Rodent Induestries Core's medical expansion are the various drugs that have been added. Some of them have a use in field emergencies, while others provide more... esoteric results.
 
 ### Batroxobine
 
@@ -184,7 +184,7 @@ An anti-anxiety drug that sees frequent abuse by the powerful and wealthy due to
 
 ## Additional Equipment
 
-MokTech Core's medical expansion also introduces some additional equipment to the field medic's toolbag which can be used for advanced diagnosis and to more effectively treat cardiac arrest and similar life-threatning emergencies.
+Rowdy Rodent Induestries Core's medical expansion also introduces some additional equipment to the field medic's toolbag which can be used for advanced diagnosis and to more effectively treat cardiac arrest and similar life-threatning emergencies.
 
 ### RFX/K Medisensor
 

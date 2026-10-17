@@ -1,2 +1,2 @@
-mti_equipment_commando
+rri_equipment_commando
 ===================

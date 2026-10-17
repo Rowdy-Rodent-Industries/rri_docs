@@ -1,4 +1,4 @@
-mti_medical_stretcher
+rri_medical_stretcher
 ===================
 
 Medical (Stretcher) template feature.

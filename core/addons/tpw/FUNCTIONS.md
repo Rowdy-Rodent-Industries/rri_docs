@@ -1,6 +1,6 @@
 # Function Reference
 
-## mti_tpw_fnc_bcLoaded
+## rri_tpw_fnc_bcLoaded
 
 **Description:** Checks if BCs Primaries is Loaded  
 
@@ -13,14 +13,14 @@
 ```
 
 (begin example)
-[_unit] call mti_tpw_fnc_bcLoaded
+[_unit] call rri_tpw_fnc_bcLoaded
 (end)
 
 ```
 
 **Author:** Chimera 
 
-## mti_tpw_fnc_checkSecondaryWeapon
+## rri_tpw_fnc_checkSecondaryWeapon
 
 **Description:** Checks if unit has a bcse tertiary  
 
@@ -33,14 +33,14 @@
 ```
 
 (begin example)
-[_unit] call mti_tpw_fnc_bcseStatus;
+[_unit] call rri_tpw_fnc_bcseStatus;
 (end)
 
 ```
 
 **Author:** Chimera 
 
-## mti_tpw_fnc_getPrimary
+## rri_tpw_fnc_getPrimary
 
 **Description:** Retrieves Primary Weapon name  
 
@@ -53,14 +53,14 @@
 ```
 
 (begin example)
-[_unit] call mti_tpw_fnc_getPrimary;
+[_unit] call rri_tpw_fnc_getPrimary;
 (end)
 
 ```
 
 **Author:** Chimera 
 
-## mti_tpw_fnc_getSecondary
+## rri_tpw_fnc_getSecondary
 
 **Description:** Retrieves secondary weapon name  
 
@@ -73,14 +73,14 @@
 ```
 
 (begin example)
-[_unit] call mti_tpw_fnc_getSecondary;
+[_unit] call rri_tpw_fnc_getSecondary;
 (end)
 
 ```
 
 **Author:** Chimera 
 
-## mti_tpw_fnc_isBCweapon
+## rri_tpw_fnc_isBCweapon
 
 **Description:** Checks if secondary weapon is from BCs  
 
@@ -93,7 +93,7 @@
 ```
 
 (begin example)
-[_unit] call mti_tpw_fnc_isBCweapon;
+[_unit] call rri_tpw_fnc_isBCweapon;
 (end)
 
 ```
